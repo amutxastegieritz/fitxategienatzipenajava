@@ -27,7 +27,7 @@ public class BilbobusMenua {
             System.out.println("             BILBOBUS GELTOKIAK KUDEATZEKO             ");
             System.out.println("=======================================================");
             System.out.println("1. Zenbat autobus geldialdi daude guztira?");
-            System.out.println("2. Zenbat eta zein autobus pasatzen dira gune/kale batetik? (Gorde aukera)");
+            System.out.println("2. Zenbat eta zein autobus pasatzen dira kale batetik?");
             System.out.println("3. Bilatu geldialdiak autobus-linea zehatz baten arabera");
             System.out.println("4. Ikusi estatistikak (Geldialdi gehien eta gutxien dituzten guneak)");
             System.out.println("5. Irten");
@@ -189,8 +189,8 @@ public class BilbobusMenua {
         }
         
         if (maxZona != null && minZona != null) {
-            System.out.println("\n🏆 Geldialdi gehien dituen gunea: " + maxZona.getNombre() + " (" + maxGeldialdiak + " geldialdi)");
-            System.out.println("📉 Geldialdi gutxien dituen gunea: " + minZona.getNombre() + " (" + minGeldialdiak + " geldialdi)");
+            System.out.println("\n Geldialdi gehien dituen gunea: " + maxZona.getNombre() + " (" + maxGeldialdiak + " geldialdi)");
+            System.out.println("Geldialdi gutxien dituen gunea: " + minZona.getNombre() + " (" + minGeldialdiak + " geldialdi)");
         }
     }
 }
