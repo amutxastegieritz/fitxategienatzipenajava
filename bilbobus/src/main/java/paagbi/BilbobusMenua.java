@@ -1,9 +1,14 @@
+package paagbi;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import java.io.FileWriter;
 import java.util.List;
 import java.util.Scanner;
 
 public class BilbobusMenua {
 
-    public static void abiaraziMenua(ParadasBilbobusResponse datuak) {
+    public static void abiaraziMenua(BilbobusGeltokiak datuak) {
         Scanner scanner = new Scanner(System.in);
         int aukera = 0;
 
@@ -12,16 +17,15 @@ public class BilbobusMenua {
             System.out.println("             BILBOBUS GELTOKIAK KUDEATZEKO             ");
             System.out.println("=======================================================");
             System.out.println("1. Zenbat autobus geldialdi daude guztira?");
-            System.out.println("2. Zenbat eta zein autobus pasatzen dira gune/kale batetik?");
+            System.out.println("2. Zenbat eta zein autobus pasatzen dira gune/kale batetik? (Gorde aukera)");
             System.out.println("3. Bilatu geldialdiak autobus-linea zehatz baten arabera");
-            System.out.println("4. Bilatu geldialdi bat bere kodearen edo izenaren arabera");
-            System.out.println("5. Ikusi estatistikak (Geldialdi gehien eta gutxien dituzten guneak)");
-            System.out.println("6. Irten");
+            System.out.println("4. Ikusi estatistikak (Geldialdi gehien eta gutxien dituzten guneak)");
+            System.out.println("5. Irten");
             System.out.print("Aukeratu zenbaki bat: ");
 
             if (scanner.hasNextInt()) {
                 aukera = scanner.nextInt();
-                scanner.nextLine(); // Bufferra garbitu
+                scanner.nextLine();
 
                 switch (aukera) {
                     case 1:
@@ -34,12 +38,9 @@ public class BilbobusMenua {
                         bilatuGeldialdiakLinearenArabera(datuak, scanner);
                         break;
                     case 4:
-                        bilatuGeldialdiaTestuarenArabera(datuak, scanner);
-                        break;
-                    case 5:
                         erakutsiGuneEstatistikak(datuak);
                         break;
-                    case 6:
+                    case 5:
                         System.out.println("Ondo izan!");
                         break;
                     default:
@@ -49,15 +50,12 @@ public class BilbobusMenua {
                 System.out.println("Mesedez, sartu zenbaki baliodun bat.");
                 scanner.nextLine();
             }
-        } while (aukera != 6);
+        } while (aukera != 5);
 
         scanner.close();
     }
 
-    // --- PROGRAMAREN METODOAK ---
-
-    // 1. aukera: Geldialdi guztiak kalkulatu
-    private static void kalkulatuGeldialdiGuztiak(ParadasBilbobusResponse datuak) {
+    private static void kalkulatuGeldialdiGuztiak(BilbobusGeltokiak datuak) {
         int totala = 0;
         if (datuak != null && datuak.getParadas_bilbobus() != null && datuak.getParadas_bilbobus().getZona() != null) {
             for (Zona zona : datuak.getParadas_bilbobus().getZona()) {
@@ -69,8 +67,7 @@ public class BilbobusMenua {
         System.out.println("\n>>> Bilbon guztira dauden autobus geldialdiak: " + totala);
     }
 
-    // 2. aukera: Autobusak kontsultatu gune/kalearen arabera (Azpimenu dinamikoa)
-    private static void erakutsiAukerakEtaKontsultatuAutobusak(ParadasBilbobusResponse datuak, Scanner scanner) {
+    private static void erakutsiAukerakEtaKontsultatuAutobusak(BilbobusGeltokiak datuak, Scanner scanner) {
         if (datuak == null || datuak.getParadas_bilbobus() == null || datuak.getParadas_bilbobus().getZona() == null) {
             System.out.println("Ez dago daturik kargatuta.");
             return;
@@ -103,6 +100,14 @@ public class BilbobusMenua {
                 }
                 System.out.println("\nGeldialdi kopurua gune honetan: " + gunekoGeldialdiKopurua);
 
+                // ERABILTZAILEARI GALDETU EA JSON FORMATUAN GORDI NAHI DUEN
+                System.out.print("\nNahi duzu gune honen emaitza .json formatuan gordetzea? (bai/ez): ");
+                String erantzuna = scanner.nextLine().trim().toLowerCase();
+
+                if (erantzuna.equals("bai") || erantzuna.equals("b")) {
+                    gordetuZonaJSON(aukeratutakoZona);
+                }
+
             } else {
                 System.out.println("Gunearen zenbaki hori ez dago barrutian.");
             }
@@ -112,8 +117,25 @@ public class BilbobusMenua {
         }
     }
 
-    // 3. aukera: Geldialdiak linea zehatz baten arabera bilatu
-    private static void bilatuGeldialdiakLinearenArabera(ParadasBilbobusResponse datuak, Scanner scanner) {
+    private static void gordetuZonaJSON(Zona zona) {
+        try {
+            Gson gson = new GsonBuilder().setPrettyPrinting().create();
+            String jsonStr = gson.toJson(zona);
+            
+            String fitxategiIzena = "data/gunea_" + zona.getNombre() + ".json";
+            // Garbitu karaktere bereziak fitxategi izenetik egokia izateko
+            fitxategiIzena = "data/gunea_hautatua.json";
+
+            try (FileWriter writer = new FileWriter(fitxategiIzena)) {
+                writer.write(jsonStr);
+                System.out.println("✔ Datuak arrakastaz gordetza dira hemen: " + fitxategiIzena);
+            }
+        } catch (Exception e) {
+            System.out.println("Errorea JSON-a gordetzean: " + e.getMessage());
+        }
+    }
+
+    private static void bilatuGeldialdiakLinearenArabera(BilbobusGeltokiak datuak, Scanner scanner) {
         System.out.print("\nSartu bilatu nahi duzun linea (adib. 28, A3): ");
         String bilatutakoLinea = scanner.nextLine().trim().toUpperCase();
         
@@ -133,36 +155,7 @@ public class BilbobusMenua {
         System.out.println("\nAurkitutako geldialdi kopurua " + bilatutakoLinea + " linearentzat: " + aurkituta);
     }
 
-    // 4. aukera: Geldialdia kodearen edo izenaren arabera bilatu
-    private static void bilatuGeldialdiaTestuarenArabera(ParadasBilbobusResponse datuak, Scanner scanner) {
-        System.out.print("\nSartu bilatu nahi duzun geldialdiaren kodea edo izena: ");
-        String bilaketa = scanner.nextLine().trim().toLowerCase();
-        
-        boolean aurkitua = false;
-        System.out.println("\n--- Bilaketaren emaitzak ---");
-        
-        for (Zona zona : datuak.getParadas_bilbobus().getZona()) {
-            if (zona.getParada() != null) {
-                for (Parada p : zona.getParada()) {
-                    if (p.getCodigo_parada().toLowerCase().contains(bilaketa) || 
-                        p.getParada().toLowerCase().contains(bilaketa)) {
-                        System.out.println(" - Kodea: " + p.getCodigo_parada());
-                        System.out.println("   Izena: " + p.getParada());
-                        System.out.println("   Gunea: " + zona.getNombre());
-                        System.out.println("   Lineak: " + p.getCorrespondencias());
-                        System.out.println("--------------------------------------------------");
-                        aurkitua = true;
-                    }
-                }
-            }
-        }
-        if (!aurkitua) {
-            System.out.println("Ez da irizpide horrekin bat datorren geldialdirik aurkitu.");
-        }
-    }
-
-    // 5. aukera: Estatistikak guneen arabera
-    private static void erakutsiGuneEstatistikak(ParadasBilbobusResponse datuak) {
+    private static void erakutsiGuneEstatistikak(BilbobusGeltokiak datuak) {
         System.out.println("\n--- GUNEEN ESTATISTIKAK ---");
         Zona maxZona = null;
         Zona minZona = null;
