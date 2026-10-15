@@ -2,10 +2,10 @@
 
 Proiektu hau Java erabiliz garatutako aplikazio bat da, Bilboko autobus geltokien (Bilbobus) OpenData datuak deskargatu, egituratu eta aztertzeko aukera ematen duena. 
 
-Aplikazioak datuak Internetetik zuzenean irakurtzen ditu, egitura hierarkiko batean antolatzen ditu eta erabiltzaileari kontsulta eta esportazio ezberdinak egiteko menu interaktibo bat eskaintzen dio.
+Aplikazioak datuak Internetetik zuzenean irakurtzen ditu, egitura hierarkiko batean antolatzen ditu XML fitxategian eta erabiltzaileari kontsulta eta esportazio ezberdinak egiteko menu interaktibo bat du.
 
-## 1. Datu-iturria (OpenData)
-Aplikazioak Bilboko Udalaren OpenData ataritik hartzen ditu datuak, zuzenean sareko konexio bat erabiliz.
+## 1. Datu-iturria
+Aplikazioak Bilboko Udalaren OpenData ataritik hartzen ditu datuak CSV formatuan, zuzenean sareko konexio bat erabiliz.
 * **Jatorrizko URLa:** [Bilbobus - Ibilbideak eta Geltokiak (CSV)](https://www.bilbao.eus/aytoonline/jsp/opendata/bilbobus/od_recorridos.jsp?idioma=c&formato=csv&tipo=paradas)
 
 ## 2. Proiektua
