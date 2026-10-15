@@ -1,0 +1,3903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paradas_bilbobus>
+    <zona nombre="1 DEUSTU - 101 SAN IGNACIO">
+        <parada>
+            <codigo_parada>1101</codigo_parada>
+            <parada>LEHENDAKARI AGUIRRE 149</parada>
+            <correspondencias>10, 13, 18, 71</correspondencias>
+            <longitud>-2.9607975873620074</longitud>
+            <latitud>43.277751895347691</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1102</codigo_parada>
+            <parada>LEHENDAKARI AGUIRRE 154</parada>
+            <correspondencias>10, 13, 18, 71</correspondencias>
+            <longitud>-2.9612926890787739</longitud>
+            <latitud>43.278840023245813</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1103</codigo_parada>
+            <parada>LEHENDAKARI AGUIRRE 161</parada>
+            <correspondencias>10, 13, 18, 71</correspondencias>
+            <longitud>-2.9617527708994844</longitud>
+            <latitud>43.279439459261141</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1104</codigo_parada>
+            <parada>PLAZA LEVANTE</parada>
+            <correspondencias>10, 13, 18, 71</correspondencias>
+            <longitud>-2.9628574179617617</longitud>
+            <latitud>43.281711991154651</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1105</codigo_parada>
+            <parada>LEHENDAKARI AGUIRRE 179</parada>
+            <correspondencias>10, 13, 18, 71</correspondencias>
+            <longitud>-2.963031856980098</longitud>
+            <latitud>43.281756526449257</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1106</codigo_parada>
+            <parada>ORIXE 54</parada>
+            <correspondencias>10</correspondencias>
+            <longitud>-2.9625080886183226</longitud>
+            <latitud>43.283746833585937</latitud>
+        </parada>
+    </zona>
+    <zona nombre="1 DEUSTU - 102 ELORRIETA">
+        <parada>
+            <codigo_parada>1201</codigo_parada>
+            <parada>IGNACIO  ELLACURÍA / ELORRIETA</parada>
+            <correspondencias>10</correspondencias>
+            <longitud>-2.9654816265885304</longitud>
+            <latitud>43.284110770141275</latitud>
+        </parada>
+    </zona>
+    <zona nombre="1 DEUSTU - 103 IBARREKOLANDA">
+        <parada>
+            <codigo_parada>1301</codigo_parada>
+            <parada>SARRIKO</parada>
+            <correspondencias>10, 13, 18, 71</correspondencias>
+            <longitud>-2.95853584786794</longitud>
+            <latitud>43.274658348601569</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1302</codigo_parada>
+            <parada>DON BOSCO / UGARTEKO</parada>
+            <correspondencias>10, 13, 18, 71</correspondencias>
+            <longitud>-2.9555105553406911</longitud>
+            <latitud>43.273344602620924</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1303</codigo_parada>
+            <parada>LEHENDAKARI AGUIRRE 135</parada>
+            <correspondencias>10, 13, 18, 71</correspondencias>
+            <longitud>-2.9597845803367155</longitud>
+            <latitud>43.27590078731383</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1304</codigo_parada>
+            <parada>LEHENDAKARI AGUIRRE 140</parada>
+            <correspondencias>10, 13, 18, 71</correspondencias>
+            <longitud>-2.9601014579329088</longitud>
+            <latitud>43.276814896677038</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1305</codigo_parada>
+            <parada>LEHENDAKARI AGUIRRE 81</parada>
+            <correspondencias>10, 13, 18, 71</correspondencias>
+            <longitud>-2.9576214074041216</longitud>
+            <latitud>43.273810139700643</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1306</codigo_parada>
+            <parada>UGARTEKO / IBARREKOLANDA</parada>
+            <correspondencias>01, G8</correspondencias>
+            <longitud>-2.95545601552245</longitud>
+            <latitud>43.273844383822755</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1411</codigo_parada>
+            <parada>IBARREKOLANDA 19</parada>
+            <correspondencias>01, A7, G8</correspondencias>
+            <longitud>-2.9544688472707814</longitud>
+            <latitud>43.273686815803778</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1412</codigo_parada>
+            <parada>DON BOSCO</parada>
+            <correspondencias>10, 13, 18, 71, G8</correspondencias>
+            <longitud>-2.9554928764361379</longitud>
+            <latitud>43.272734369500355</latitud>
+        </parada>
+    </zona>
+    <zona nombre="1 DEUSTU - 104 SAN PEDRO DE DEUSTU">
+        <parada>
+            <codigo_parada>1401</codigo_parada>
+            <parada>ARANEKO fte.22</parada>
+            <correspondencias>01, A6, G8</correspondencias>
+            <longitud>-2.9497927472636305</longitud>
+            <latitud>43.274161847372454</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1402</codigo_parada>
+            <parada>BLAS DE OTERO fte. 23</parada>
+            <correspondencias>11</correspondencias>
+            <longitud>-2.9470847500785222</longitud>
+            <latitud>43.270073698233141</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1403</codigo_parada>
+            <parada>BLAS DE OTERO fte. 57</parada>
+            <correspondencias>11</correspondencias>
+            <longitud>-2.9518522263011095</longitud>
+            <latitud>43.269834845080581</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1404</codigo_parada>
+            <parada>BOTICA VIEJA</parada>
+            <correspondencias>11</correspondencias>
+            <longitud>-2.9436339293881346</longitud>
+            <latitud>43.269183707140328</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1405</codigo_parada>
+            <parada>BOTICA VIEJA / PUENTE DE DEUSTU</parada>
+            <correspondencias>11, 71, G1, G8</correspondencias>
+            <longitud>-2.9403442442326266</longitud>
+            <latitud>43.269952399749933</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1407</codigo_parada>
+            <parada>HELIODORO DE LA TORRE</parada>
+            <correspondencias>11</correspondencias>
+            <longitud>-2.9437626387241878</longitud>
+            <latitud>43.269283815291693</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1408</codigo_parada>
+            <parada>BOTICA VIEJA 1</parada>
+            <correspondencias>11</correspondencias>
+            <longitud>-2.9403853657444219</longitud>
+            <latitud>43.269994195462075</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1409</codigo_parada>
+            <parada>BUENAVISTA</parada>
+            <correspondencias>01</correspondencias>
+            <longitud>-2.9433544523879305</longitud>
+            <latitud>43.274006049642026</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1410</codigo_parada>
+            <parada>HERMANOS AGUIRRE</parada>
+            <correspondencias>71, G8</correspondencias>
+            <longitud>-2.9409105261505881</longitud>
+            <latitud>43.270986852929575</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1413</codigo_parada>
+            <parada>ESCUELA DE IDIOMAS</parada>
+            <correspondencias>01, 10, 13, 18, 71, G8</correspondencias>
+            <longitud>-2.9441703401607824</longitud>
+            <latitud>43.271681857964751</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1414</codigo_parada>
+            <parada>LEHENDAKARI AGUIRRE / fte. BIDARTE</parada>
+            <correspondencias>01, 10, 11, 13, 18, 71, A4, G8</correspondencias>
+            <longitud>-2.9499921924164236</longitud>
+            <latitud>43.271995267154708</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1415</codigo_parada>
+            <parada>LEHENDAKARI AGUIRRE 42</parada>
+            <correspondencias>01, 10, 13, 18, 71, A7, G8</correspondencias>
+            <longitud>-2.95103520386032</longitud>
+            <latitud>43.272134232765076</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1416</codigo_parada>
+            <parada>LUIS POWER fte. 18</parada>
+            <correspondencias>11, A4</correspondencias>
+            <longitud>-2.9474354970827377</longitud>
+            <latitud>43.270630807227192</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1417</codigo_parada>
+            <parada>LUIS POWER fte. 4</parada>
+            <correspondencias>11, A4</correspondencias>
+            <longitud>-2.9472745748899358</longitud>
+            <latitud>43.268717234664578</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1418</codigo_parada>
+            <parada>MADARIAGA</parada>
+            <correspondencias>11</correspondencias>
+            <longitud>-2.9568788946726481</longitud>
+            <latitud>43.270732673016909</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1419</codigo_parada>
+            <parada>MADARIAGA / fte. LA SALLE</parada>
+            <correspondencias>11</correspondencias>
+            <longitud>-2.9545199346484758</longitud>
+            <latitud>43.270793890484505</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1420</codigo_parada>
+            <parada>BASABE</parada>
+            <correspondencias>11</correspondencias>
+            <longitud>-2.9566054306954803</longitud>
+            <latitud>43.270677146660056</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1421</codigo_parada>
+            <parada>LA SALLE</parada>
+            <correspondencias>11</correspondencias>
+            <longitud>-2.9549515474454107</longitud>
+            <latitud>43.270725746682437</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1423</codigo_parada>
+            <parada>SAN PEDRO / IGLESIA</parada>
+            <correspondencias>01, 10, 13, 18, 71, A6, A7, G8</correspondencias>
+            <longitud>-2.9449654159425762</longitud>
+            <latitud>43.271903890709368</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1424</codigo_parada>
+            <parada>SAN PIO X / FRANCESC MACIÀ</parada>
+            <correspondencias>01, 10, 13, 18</correspondencias>
+            <longitud>-2.9415795978030261</longitud>
+            <latitud>43.270971909313559</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1425</codigo_parada>
+            <parada>SAN PIO X / HERMANOS AGUIRRE</parada>
+            <correspondencias>01, 10, 13, 18, A7, G1</correspondencias>
+            <longitud>-2.94131010404469</longitud>
+            <latitud>43.27104294375868</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1428</codigo_parada>
+            <parada>SAGRADA FAMILIA / fte. SALESIANOS</parada>
+            <correspondencias>11, A4</correspondencias>
+            <longitud>-2.9526700002340278</longitud>
+            <latitud>43.27131385324229</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1430</codigo_parada>
+            <parada>IBARREKOLANDA 17</parada>
+            <correspondencias>A6, I1</correspondencias>
+            <longitud>-2.954085165825223</longitud>
+            <latitud>43.273541399186982</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1431</codigo_parada>
+            <parada>IBARREKOLANDA / PARKING</parada>
+            <correspondencias>A6</correspondencias>
+            <longitud>-2.9535042188488068</longitud>
+            <latitud>43.27344649320716</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1432</codigo_parada>
+            <parada>MADARIAGA 13</parada>
+            <correspondencias>A6</correspondencias>
+            <longitud>-2.9462110866698636</longitud>
+            <latitud>43.27103162647613</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1433</codigo_parada>
+            <parada>ARANEKOBIDEA</parada>
+            <correspondencias>I1</correspondencias>
+            <longitud>-2.9502905113407172</longitud>
+            <latitud>43.274239942165323</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1434</codigo_parada>
+            <parada>PUENTE PEDRO ARRUPE</parada>
+            <correspondencias>11, 71, G1, G8</correspondencias>
+            <longitud>-2.93727256942446</longitud>
+            <latitud>43.270204003399279</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1435</codigo_parada>
+            <parada>UNIVERSIDAD DEUSTO</parada>
+            <correspondencias>11, 71, BT, G8</correspondencias>
+            <longitud>-2.9376533658346062</longitud>
+            <latitud>43.270256883651406</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1518</codigo_parada>
+            <parada>MORGAN / CLÍNICA IMQ (provisional)</parada>
+            <correspondencias>A4</correspondencias>
+            <longitud>-2.9530152763334487</longitud>
+            <latitud>43.26831296359159</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1519</codigo_parada>
+            <parada>JULIO URQUIJO</parada>
+            <correspondencias>A4</correspondencias>
+            <longitud>-2.9540482855277319</longitud>
+            <latitud>43.268198740287275</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1609</codigo_parada>
+            <parada>GORBEIA fte. 3</parada>
+            <correspondencias>A6</correspondencias>
+            <longitud>-2.9458173057771306</longitud>
+            <latitud>43.274401554795645</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1712</codigo_parada>
+            <parada>MONTE ELORRIAGA</parada>
+            <correspondencias>01, A6, G8, I1</correspondencias>
+            <longitud>-2.9537073760696231</longitud>
+            <latitud>43.275399225008542</latitud>
+        </parada>
+    </zona>
+    <zona nombre="1 DEUSTU - 105 LA RIBERA">
+        <parada>
+            <codigo_parada>1504</codigo_parada>
+            <parada>RIBERA DE DEUSTU fte. 59</parada>
+            <correspondencias>A4</correspondencias>
+            <longitud>-2.9615706770490835</longitud>
+            <latitud>43.2680662121544</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1509</codigo_parada>
+            <parada>RIBERA DE DEUSTU 57</parada>
+            <correspondencias>A4</correspondencias>
+            <longitud>-2.9613527226472023</longitud>
+            <latitud>43.267958172681553</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1511</codigo_parada>
+            <parada>ZORROTZAURRE fte. 17</parada>
+            <correspondencias>A4</correspondencias>
+            <longitud>-2.9671654856347875</longitud>
+            <latitud>43.274704032226204</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1513</codigo_parada>
+            <parada>ZORROTZAURRE fte. 9</parada>
+            <correspondencias>A4</correspondencias>
+            <longitud>-2.9653660412243146</longitud>
+            <latitud>43.27261510997829</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1514</codigo_parada>
+            <parada>ZORROTZAURRE 17</parada>
+            <correspondencias>A4</correspondencias>
+            <longitud>-2.9669889906551328</longitud>
+            <latitud>43.2745756619525</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1515</codigo_parada>
+            <parada>ZORROTZAURRE 9</parada>
+            <correspondencias>A4</correspondencias>
+            <longitud>-2.9652314820204344</longitud>
+            <latitud>43.27246290172932</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1520</codigo_parada>
+            <parada>ZORROTZAURRE 2</parada>
+            <correspondencias>A4</correspondencias>
+            <longitud>-2.9646775091805155</longitud>
+            <latitud>43.271400641418531</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1522</codigo_parada>
+            <parada>CARGUERAS 17</parada>
+            <correspondencias>A4</correspondencias>
+            <longitud>-2.9586040586349167</longitud>
+            <latitud>43.2671043759808</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1523</codigo_parada>
+            <parada>CARGUERAS 1</parada>
+            <correspondencias>A4</correspondencias>
+            <longitud>-2.9562263090005252</longitud>
+            <latitud>43.266561397707605</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1525</codigo_parada>
+            <parada>GALLETERAS / PUENTE FRANK GEHRY</parada>
+            <correspondencias>A4</correspondencias>
+            <longitud>-2.9555859326184124</longitud>
+            <latitud>43.266813829025814</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1527</codigo_parada>
+            <parada>GALLETERAS 42</parada>
+            <correspondencias>A4</correspondencias>
+            <longitud>-2.9667456628182287</longitud>
+            <latitud>43.277640627696364</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1528</codigo_parada>
+            <parada>GALLETERAS (PUNTA NORTE)</parada>
+            <correspondencias>A4</correspondencias>
+            <longitud>-2.9676062928610851</longitud>
+            <latitud>43.279729218618684</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1529</codigo_parada>
+            <parada>CARGUERAS / GALLETERAS</parada>
+            <correspondencias>A4</correspondencias>
+            <longitud>-2.9585792395856738</longitud>
+            <latitud>43.267591666356623</latitud>
+        </parada>
+    </zona>
+    <zona nombre="1 DEUSTU - 106 ARANGOITI">
+        <parada>
+            <codigo_parada>1601</codigo_parada>
+            <parada>ARANEKO 17</parada>
+            <correspondencias>01, A6, G8</correspondencias>
+            <longitud>-2.948478591225562</longitud>
+            <latitud>43.274125275724025</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1602</codigo_parada>
+            <parada>BERRIZBIDEA</parada>
+            <correspondencias>A6</correspondencias>
+            <longitud>-2.9495538344379679</longitud>
+            <latitud>43.276070773825793</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1603</codigo_parada>
+            <parada>EGILEOR 4</parada>
+            <correspondencias>01, G8</correspondencias>
+            <longitud>-2.9472659879487559</longitud>
+            <latitud>43.274441041622936</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1604</codigo_parada>
+            <parada>MONTE GANETA fte. 7</parada>
+            <correspondencias>01, G8</correspondencias>
+            <longitud>-2.9474762072326528</longitud>
+            <latitud>43.275420653542739</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1605</codigo_parada>
+            <parada>CAMINO MIRAMAR / ESCUELA</parada>
+            <correspondencias>01, A6, G8</correspondencias>
+            <longitud>-2.9496823460815862</longitud>
+            <latitud>43.275414074245475</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1606</codigo_parada>
+            <parada>VIRGEN DEL PINAR 5</parada>
+            <correspondencias>A6</correspondencias>
+            <longitud>-2.9505568252151591</longitud>
+            <latitud>43.276583873844309</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1607</codigo_parada>
+            <parada>VIRGEN DEL PINAR 9</parada>
+            <correspondencias>A6</correspondencias>
+            <longitud>-2.950150308228193</longitud>
+            <latitud>43.2761567731122</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1608</codigo_parada>
+            <parada>GANEKOGORTA 10</parada>
+            <correspondencias>A6</correspondencias>
+            <longitud>-2.9469123574629696</longitud>
+            <latitud>43.274774124919624</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1701</codigo_parada>
+            <parada>ARANEKO / CEMENTERIO</parada>
+            <correspondencias>01, A6, G8</correspondencias>
+            <longitud>-2.9524388433642765</longitud>
+            <latitud>43.275474894202034</latitud>
+        </parada>
+    </zona>
+    <zona nombre="1 DEUSTU - 107 DISEMINADO">
+        <parada>
+            <codigo_parada>1702</codigo_parada>
+            <parada>CAMINO MIRAMAR fte. 47</parada>
+            <correspondencias>01, A6, G8</correspondencias>
+            <longitud>-2.9532074529487757</longitud>
+            <latitud>43.276827823926055</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1703</codigo_parada>
+            <parada>CAMINO MIRAMAR / ARANEKOBIDEA</parada>
+            <correspondencias>01, A6, G8</correspondencias>
+            <longitud>-2.95388320482399</longitud>
+            <latitud>43.276565320538289</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1705</codigo_parada>
+            <parada>ENEKURI / GASOLINERA</parada>
+            <correspondencias>A7</correspondencias>
+            <longitud>-2.9583931025100432</longitud>
+            <latitud>43.286044592925073</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1706</codigo_parada>
+            <parada>ENEKURI</parada>
+            <correspondencias>A7</correspondencias>
+            <longitud>-2.9607335522902174</longitud>
+            <latitud>43.289607147185684</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1707</codigo_parada>
+            <parada>ENEKURI / fte. SAN PABLO</parada>
+            <correspondencias>A7</correspondencias>
+            <longitud>-2.9575677570460646</longitud>
+            <latitud>43.287600007565786</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1708</codigo_parada>
+            <parada>ELORRIAGA</parada>
+            <correspondencias>A7</correspondencias>
+            <longitud>-2.9530299901565553</longitud>
+            <latitud>43.283110418054434</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1709</codigo_parada>
+            <parada>BERRIZ / CAMPO DE TIRO</parada>
+            <correspondencias>A7</correspondencias>
+            <longitud>-2.9460926059450148</longitud>
+            <latitud>43.2792154764156</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1710</codigo_parada>
+            <parada>ESCUELA DE HOSTELERÍA</parada>
+            <correspondencias>A7</correspondencias>
+            <longitud>-2.941718264661124</longitud>
+            <latitud>43.279726581068843</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>1711</codigo_parada>
+            <parada>AIXERROTA</parada>
+            <correspondencias>A7</correspondencias>
+            <longitud>-2.9349884725428308</longitud>
+            <latitud>43.278202582474925</latitud>
+        </parada>
+    </zona>
+    <zona nombre="2 URIBARRI - 201 CASTAÑOS">
+        <parada>
+            <codigo_parada>2101</codigo_parada>
+            <parada>CAMPO VOLANTÍN fte. 21</parada>
+            <correspondencias>11, 71, G1, G8</correspondencias>
+            <longitud>-2.926880411516573</longitud>
+            <latitud>43.266454559610757</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2103</codigo_parada>
+            <parada>CAMPO VOLANTÍN / LA SALVE</parada>
+            <correspondencias>11, 28, 71, G8</correspondencias>
+            <longitud>-2.9304031739906553</longitud>
+            <latitud>43.269251492012479</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2104</codigo_parada>
+            <parada>CAMPO VOLANTÍN 13</parada>
+            <correspondencias>22, 28, 72, 77, G1, G8</correspondencias>
+            <longitud>-2.925289504132746</longitud>
+            <latitud>43.265243947145727</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2105</codigo_parada>
+            <parada>CAMPO VOLANTÍN 23</parada>
+            <correspondencias>11, 28, 71, 72, BT, G1</correspondencias>
+            <longitud>-2.927288342821349</longitud>
+            <latitud>43.266849787465013</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2107</codigo_parada>
+            <parada>FUNICULAR</parada>
+            <correspondencias>72, 77, G8</correspondencias>
+            <longitud>-2.9265404071645498</longitud>
+            <latitud>43.268384297412624</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2108</codigo_parada>
+            <parada>AYUNTAMIENTO</parada>
+            <correspondencias>11, 22, 28, 71, 72, 77, BT, G1, G8</correspondencias>
+            <longitud>-2.923615305397822</longitud>
+            <latitud>43.263942282653112</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2109</codigo_parada>
+            <parada>PUENTE LA SALVE</parada>
+            <correspondencias>11, 71, G1, G8</correspondencias>
+            <longitud>-2.9314352323581274</longitud>
+            <latitud>43.269699825538396</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2110</codigo_parada>
+            <parada>TIBOLI 1</parada>
+            <correspondencias>28, 72, 77</correspondencias>
+            <longitud>-2.925530465103821</longitud>
+            <latitud>43.266225844440285</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2111</codigo_parada>
+            <parada>TRISTÁN DE LEGUIZAMÓN 5</parada>
+            <correspondencias>72, 77, G8</correspondencias>
+            <longitud>-2.9287148846933317</longitud>
+            <latitud>43.269184841117436</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2112</codigo_parada>
+            <parada>Fte. AYUNTAMIENTO</parada>
+            <correspondencias>11, 28, 71, 72, 77, G1, G8</correspondencias>
+            <longitud>-2.9239719694142612</longitud>
+            <latitud>43.264079351167112</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2208</codigo_parada>
+            <parada>ARTATZAMINA Fte.1</parada>
+            <correspondencias>28</correspondencias>
+            <longitud>-2.9257962081987978</longitud>
+            <latitud>43.26916602345549</latitud>
+        </parada>
+    </zona>
+    <zona nombre="2 URIBARRI - 202 MATIKO">
+        <parada>
+            <codigo_parada>2201</codigo_parada>
+            <parada>ANSELMA DE SALCES fte.2</parada>
+            <correspondencias>22, 28, 72, G1</correspondencias>
+            <longitud>-2.9229441674726058</longitud>
+            <latitud>43.266279469925621</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2203</codigo_parada>
+            <parada>MATIKO 1</parada>
+            <correspondencias>28, 72</correspondencias>
+            <longitud>-2.9245832866483812</longitud>
+            <latitud>43.268115028675126</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2205</codigo_parada>
+            <parada>RICARDO ARREGUI 33</parada>
+            <correspondencias>22, 28, G1</correspondencias>
+            <longitud>-2.92465594069291</longitud>
+            <latitud>43.269323969780714</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2206</codigo_parada>
+            <parada>TIBOLI 12</parada>
+            <correspondencias>22, 28, 72, G1</correspondencias>
+            <longitud>-2.9252482270770703</longitud>
+            <latitud>43.267210884484584</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2207</codigo_parada>
+            <parada>MATIKO 27</parada>
+            <correspondencias>28, 72</correspondencias>
+            <longitud>-2.9227720581026095</longitud>
+            <latitud>43.266920468616561</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2209</codigo_parada>
+            <parada>ANSELMA DE SALCES 17</parada>
+            <correspondencias>28</correspondencias>
+            <longitud>-2.9246308292673278</longitud>
+            <latitud>43.267203938314061</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2301</codigo_parada>
+            <parada>MAURICE RAVEL / CIUDAD JARDÍN</parada>
+            <correspondencias>13, 27, 38, 48, G1</correspondencias>
+            <longitud>-2.9260557291011979</longitud>
+            <latitud>43.270103532443045</latitud>
+        </parada>
+    </zona>
+    <zona nombre="5 IBAIONDO - 501 CASCO VIEJO">
+        <parada>
+            <codigo_parada>2202</codigo_parada>
+            <parada>CRISTO 1</parada>
+            <correspondencias>03, 22, 30, 62, A1, A5, A7, A9, G2</correspondencias>
+            <longitud>-2.9225287781070852</longitud>
+            <latitud>43.265001858952644</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5101</codigo_parada>
+            <parada>ARENAL / fte. SAN NICOLÁS</parada>
+            <correspondencias>11, 22, A9, G4</correspondencias>
+            <longitud>-2.9229886178264439</longitud>
+            <latitud>43.260431181535942</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5102</codigo_parada>
+            <parada>ARENAL / ARRIAGA</parada>
+            <correspondencias>56, 72, 75, 77, 85, BT</correspondencias>
+            <longitud>-2.9240903262864539</longitud>
+            <latitud>43.259582092910726</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5103</codigo_parada>
+            <parada>ERNESTO ERKOREKA 8</parada>
+            <correspondencias>03, 30, 40, 62, A1, A2, A5, A9, G2, G8</correspondencias>
+            <longitud>-2.9226424407481435</longitud>
+            <latitud>43.264119114157765</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5105</codigo_parada>
+            <parada>PUENTE DEL ARENAL</parada>
+            <correspondencias>03, 28, 30, 40, 56, 58, 71, 72, 75, 77, 85, A1, A2, A7, E3, E7, G2, G4, G7, G8</correspondencias>
+            <longitud>-2.9241489626134225</longitud>
+            <latitud>43.259806731974088</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5106</codigo_parada>
+            <parada>MERCADO DE LA RIBERA</parada>
+            <correspondencias>11, 22, 40, 55, 56, 58, 72, 75, 77, 85, A2, BT, E3, E7, G4, G7</correspondencias>
+            <longitud>-2.9257696045193571</longitud>
+            <latitud>43.256609433360268</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5107</codigo_parada>
+            <parada>SAN NICOLÁS 4</parada>
+            <correspondencias>A2, A5</correspondencias>
+            <longitud>-2.9223630866350194</longitud>
+            <latitud>43.259850468431672</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5108</codigo_parada>
+            <parada>SENDEJA fte. 5</parada>
+            <correspondencias>03, 11, 22, 28, 30, 71, 72, 77, A1, A7, A9, G2, G4, G8</correspondencias>
+            <longitud>-2.9231041804923739</longitud>
+            <latitud>43.262864971794066</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5109</codigo_parada>
+            <parada>UNAMUNO</parada>
+            <correspondencias>A2, A5</correspondencias>
+            <longitud>-2.9216252065068762</longitud>
+            <latitud>43.25819180203036</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5110</codigo_parada>
+            <parada>VIUDA DE EPALZA 1 / SAN NICOLÁS</parada>
+            <correspondencias>11, 22, 62, 72, 77, G8</correspondencias>
+            <longitud>-2.9228078077207043</longitud>
+            <latitud>43.260440307445663</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5111</codigo_parada>
+            <parada>ZUMALACARREGUI / fte. TOMÁS ZUBIRÍA</parada>
+            <correspondencias>03, 30, 40, 62, A1, A2, A5, A9, G2</correspondencias>
+            <longitud>-2.9184661989695964</longitud>
+            <latitud>43.264769914857524</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5705</codigo_parada>
+            <parada>PUENTE DE LA MERCED</parada>
+            <correspondencias>11, 22, 40, 56, 58, 75, 77, 85, A2, G4, G7</correspondencias>
+            <longitud>-2.927103893148193</longitud>
+            <latitud>43.2575396038797</latitud>
+        </parada>
+    </zona>
+    <zona nombre="2 URIBARRI - 207 DISEMINADO">
+        <parada>
+            <codigo_parada>2302</codigo_parada>
+            <parada>VÍA VIEJA DE LEZAMA 85</parada>
+            <correspondencias>A1</correspondencias>
+            <longitud>-2.92539966956233</longitud>
+            <latitud>43.272370967399326</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2303</codigo_parada>
+            <parada>VÍA VIEJA DE LEZAMA 93</parada>
+            <correspondencias>A1</correspondencias>
+            <longitud>-2.926042817309499</longitud>
+            <latitud>43.272698469569875</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2413</codigo_parada>
+            <parada>VÍA VIEJA DE LEZAMA 73</parada>
+            <correspondencias>A1</correspondencias>
+            <longitud>-2.9198016352504492</longitud>
+            <latitud>43.270082116827282</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2702</codigo_parada>
+            <parada>VÍA VIEJA DE LEZAMA fte. 85</parada>
+            <correspondencias>A1</correspondencias>
+            <longitud>-2.9251693856599084</longitud>
+            <latitud>43.272361740638225</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2704</codigo_parada>
+            <parada>VÍA VIEJA DE LEZAMA 78</parada>
+            <correspondencias>A1</correspondencias>
+            <longitud>-2.9188675602833176</longitud>
+            <latitud>43.269421731080961</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2705</codigo_parada>
+            <parada>VÍA VIEJA DE LEZAMA 82</parada>
+            <correspondencias>A1</correspondencias>
+            <longitud>-2.9197578558959734</longitud>
+            <latitud>43.270100608076213</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2706</codigo_parada>
+            <parada>ARTXANDA / COLEGIO JESÚS MARÍA</parada>
+            <correspondencias>A7</correspondencias>
+            <longitud>-2.9265502190805242</longitud>
+            <latitud>43.276938148212849</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2707</codigo_parada>
+            <parada>ARTXANDA / NOGARO</parada>
+            <correspondencias>A7</correspondencias>
+            <longitud>-2.9240068060217164</longitud>
+            <latitud>43.275983683999215</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2708</codigo_parada>
+            <parada>ARTXANDA / FUNICULAR</parada>
+            <correspondencias>A7, E6</correspondencias>
+            <longitud>-2.9205156812397761</longitud>
+            <latitud>43.274667759712926</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2709</codigo_parada>
+            <parada>ARTXANDA / POLIDEPORTIVO</parada>
+            <correspondencias>A7</correspondencias>
+            <longitud>-2.9175549523559319</longitud>
+            <latitud>43.273590592177378</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2710</codigo_parada>
+            <parada>ARTXANDA / LA ESPERANZA</parada>
+            <correspondencias>A7</correspondencias>
+            <longitud>-2.9134073955239006</longitud>
+            <latitud>43.271667655193212</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2711</codigo_parada>
+            <parada>ARTXANDA / MIRADOR</parada>
+            <correspondencias>A7</correspondencias>
+            <longitud>-2.9089183555798441</longitud>
+            <latitud>43.269222553324234</latitud>
+        </parada>
+    </zona>
+    <zona nombre="2 URIBARRI - 204 URIBARRI">
+        <parada>
+            <codigo_parada>2401</codigo_parada>
+            <parada>MONTE ALDAMIZ / TELEFÓNICA</parada>
+            <correspondencias>22, G1</correspondencias>
+            <longitud>-2.9186947395235618</longitud>
+            <latitud>43.268321738515716</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2402</codigo_parada>
+            <parada>MONTE IZARO 8</parada>
+            <correspondencias>22, G1</correspondencias>
+            <longitud>-2.9198860567759595</longitud>
+            <latitud>43.267492576131822</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2403</codigo_parada>
+            <parada>MAURICE RAVEL / fte. MIRADOR</parada>
+            <correspondencias>13, 27, 38, 48</correspondencias>
+            <longitud>-2.9225069393248067</longitud>
+            <latitud>43.269658836092816</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2404</codigo_parada>
+            <parada>MAURICE RAVEL / MIRADOR</parada>
+            <correspondencias>13, 27, 38, 48, G1</correspondencias>
+            <longitud>-2.9225837774392511</longitud>
+            <latitud>43.269848089717243</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2405</codigo_parada>
+            <parada>MAURICE RAVEL 20</parada>
+            <correspondencias>13, 27, 38, 48, G1</correspondencias>
+            <longitud>-2.9184451110800129</longitud>
+            <latitud>43.267833940984708</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2406</codigo_parada>
+            <parada>MAURICE RAVEL 7</parada>
+            <correspondencias>13, 27, 38, 48</correspondencias>
+            <longitud>-2.9184891253020919</longitud>
+            <latitud>43.267649749369845</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2407</codigo_parada>
+            <parada>MÚSICO GURIDI</parada>
+            <correspondencias>13, 27, 38, 48</correspondencias>
+            <longitud>-2.9169223897579797</longitud>
+            <latitud>43.265611624805381</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2408</codigo_parada>
+            <parada>SAN VALENTÍN DE BERRIOTXOA</parada>
+            <correspondencias>28</correspondencias>
+            <longitud>-2.9180635644285378</longitud>
+            <latitud>43.266148166920487</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2409</codigo_parada>
+            <parada>TRAUKO fte. 5</parada>
+            <correspondencias>22, 28, G1</correspondencias>
+            <longitud>-2.9213867935761386</longitud>
+            <latitud>43.267195150074684</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2410</codigo_parada>
+            <parada>TRAUKO 3</parada>
+            <correspondencias>28</correspondencias>
+            <longitud>-2.9215573340765957</longitud>
+            <latitud>43.267281240481786</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2411</codigo_parada>
+            <parada>VÍA VIEJA DE LEZAMA /  NUEVA AURORA</parada>
+            <correspondencias>22, A1, G1</correspondencias>
+            <longitud>-2.9186862369491164</longitud>
+            <latitud>43.269336944788115</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2412</codigo_parada>
+            <parada>VÍA VIEJA DE LEZAMA 59</parada>
+            <correspondencias>22, A1, G1</correspondencias>
+            <longitud>-2.9157425743727168</longitud>
+            <latitud>43.268027169135294</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2415</codigo_parada>
+            <parada>ZUMALACARREGUI / TOMÁS ZUBIRÍA</parada>
+            <correspondencias>03, 22, 28, 30, 62, A1, A5, A7, A9, G2</correspondencias>
+            <longitud>-2.9183880468156334</longitud>
+            <latitud>43.264919813744449</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2416</codigo_parada>
+            <parada>TRAUKO 14</parada>
+            <correspondencias>28</correspondencias>
+            <longitud>-2.9197902192167007</longitud>
+            <latitud>43.266728718444789</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2417</codigo_parada>
+            <parada>TRAUKO fte. 14</parada>
+            <correspondencias>28</correspondencias>
+            <longitud>-2.919613086705338</longitud>
+            <latitud>43.266718136263364</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2503</codigo_parada>
+            <parada>BUEN PASTOR</parada>
+            <correspondencias>13, 27, 38, 48, G1</correspondencias>
+            <longitud>-2.9167480288175884</longitud>
+            <latitud>43.26545559845</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2703</codigo_parada>
+            <parada>VÍA VIEJA DE LEZAMA 70</parada>
+            <correspondencias>A1</correspondencias>
+            <longitud>-2.9155540333454391</longitud>
+            <latitud>43.267905848569534</latitud>
+        </parada>
+    </zona>
+    <zona nombre="2 URIBARRI - 203 CIUDAD JARDIN">
+        <parada>
+            <codigo_parada>2414</codigo_parada>
+            <parada>VÍA VIEJA DE LEZAMA 75</parada>
+            <correspondencias>A1</correspondencias>
+            <longitud>-2.9212335662870097</longitud>
+            <latitud>43.271434635000688</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2701</codigo_parada>
+            <parada>VÍA VIEJA DE LEZAMA / MONTAÑO</parada>
+            <correspondencias>A1</correspondencias>
+            <longitud>-2.9211209466171111</longitud>
+            <latitud>43.27139991536292</latitud>
+        </parada>
+    </zona>
+    <zona nombre="2 URIBARRI - 205 ZURBARAN">
+        <parada>
+            <codigo_parada>2501</codigo_parada>
+            <parada>ANDRAMARIA DE BEGOÑA</parada>
+            <correspondencias>22, 27, 62, G1</correspondencias>
+            <longitud>-2.91313594649417</longitud>
+            <latitud>43.262289409865389</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2502</codigo_parada>
+            <parada>ARABELLA</parada>
+            <correspondencias>22, 27, 62, G1</correspondencias>
+            <longitud>-2.9114660229466569</longitud>
+            <latitud>43.261273299328238</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2504</codigo_parada>
+            <parada>SAN ISIDRO</parada>
+            <correspondencias>13, 22, 27, 30, 38, 62, A7, A9, G1, G2</correspondencias>
+            <longitud>-2.9126470766698733</longitud>
+            <latitud>43.260677610204517</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2505</codigo_parada>
+            <parada>VÍA VIEJA DE LEZAMA / ITURRIONDO</parada>
+            <correspondencias>27, 62, A1</correspondencias>
+            <longitud>-2.9136984348493762</longitud>
+            <latitud>43.26466624253279</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2506</codigo_parada>
+            <parada>VÍA VIEJA DE LEZAMA 2</parada>
+            <correspondencias>27, 62, A1</correspondencias>
+            <longitud>-2.915359738161666</longitud>
+            <latitud>43.262410902048579</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2507</codigo_parada>
+            <parada>VÍA VIEJA DE LEZAMA 35</parada>
+            <correspondencias>22, A1, G1</correspondencias>
+            <longitud>-2.9133663742318947</longitud>
+            <latitud>43.265328345678434</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2510</codigo_parada>
+            <parada>ZURBARANBARRI</parada>
+            <correspondencias>22, 27, 62, G1</correspondencias>
+            <longitud>-2.9118891239718869</longitud>
+            <latitud>43.264759732536646</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2511</codigo_parada>
+            <parada>ZURBARANBARRI 62</parada>
+            <correspondencias>22, I2</correspondencias>
+            <longitud>-2.9129150958592254</longitud>
+            <latitud>43.264143051308366</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2512</codigo_parada>
+            <parada>ANDRAMARI DE BEGOÑA 23</parada>
+            <correspondencias>I2</correspondencias>
+            <longitud>-2.9123028961304755</longitud>
+            <latitud>43.263594934877986</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2602</codigo_parada>
+            <parada>ZABALBIDE fte. 112</parada>
+            <correspondencias>22, A7, A9</correspondencias>
+            <longitud>-2.9111782549018552</longitud>
+            <latitud>43.2611712459582</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3232</codigo_parada>
+            <parada>ZABALBIDE 110A</parada>
+            <correspondencias>A9</correspondencias>
+            <longitud>-2.9116999895937536</longitud>
+            <latitud>43.260643568961285</latitud>
+        </parada>
+    </zona>
+    <zona nombre="4 BEGOÑA - 401 BEGOÑA">
+        <parada>
+            <codigo_parada>2508</codigo_parada>
+            <parada>ZUMALACARREGUI 105</parada>
+            <correspondencias>03, 13, 22, 27, 30, 38, 48, 62, A1, A5, A7, A9, G1, G2</correspondencias>
+            <longitud>-2.9153266736124395</longitud>
+            <latitud>43.261550505079896</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2509</codigo_parada>
+            <parada>ZUMALACARREGUI 121</parada>
+            <correspondencias>03</correspondencias>
+            <longitud>-2.914121496372279</longitud>
+            <latitud>43.260334596825778</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4101</codigo_parada>
+            <parada>AMADEO DEPRIT / DOLARETXE</parada>
+            <correspondencias>48, A5</correspondencias>
+            <longitud>-2.9168041855406961</longitud>
+            <latitud>43.257827863059681</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4102</codigo_parada>
+            <parada>AMADEO DEPRIT / PEDRO CORTÉS</parada>
+            <correspondencias>40, 48, A2, A5</correspondencias>
+            <longitud>-2.9170709794905103</longitud>
+            <latitud>43.260057104708345</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4103</codigo_parada>
+            <parada>AMADEO DEPRIT 8</parada>
+            <correspondencias>48, A5</correspondencias>
+            <longitud>-2.916767412299214</longitud>
+            <latitud>43.260278249221727</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4104</codigo_parada>
+            <parada>BASÍLICA DE BEGOÑA</parada>
+            <correspondencias>03, 30, 38, A9, G2</correspondencias>
+            <longitud>-2.913919532836065</longitud>
+            <latitud>43.259001059565747</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4106</codigo_parada>
+            <parada>MASUSTEGI fte. 21</parada>
+            <correspondencias>48</correspondencias>
+            <longitud>-2.9134899966228875</longitud>
+            <latitud>43.257456698285679</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4107</codigo_parada>
+            <parada>MASUSTEGI 21</parada>
+            <correspondencias>40, 48</correspondencias>
+            <longitud>-2.9136665001262312</longitud>
+            <latitud>43.257274844509446</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4108</codigo_parada>
+            <parada>MASUSTEGI 3</parada>
+            <correspondencias>40, 48</correspondencias>
+            <longitud>-2.9131508308724592</longitud>
+            <latitud>43.256003259123432</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4109</codigo_parada>
+            <parada>ZUMALACARREGUI 38</parada>
+            <correspondencias>03, 13, 30, 38, A9, G2</correspondencias>
+            <longitud>-2.9148660649392739</longitud>
+            <latitud>43.260795204881788</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5104</codigo_parada>
+            <parada>PÁRROCO UGAZ / ROTONDA</parada>
+            <correspondencias>27, 40, 48, 62, A1, A2, A5</correspondencias>
+            <longitud>-2.9159225765796224</longitud>
+            <latitud>43.2614377801749</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5201</codigo_parada>
+            <parada>AMADEO DEPRIT 1</parada>
+            <correspondencias>40, 48, A2, A5</correspondencias>
+            <longitud>-2.9168871419639815</longitud>
+            <latitud>43.25777915383776</latitud>
+        </parada>
+    </zona>
+    <zona nombre="2 URIBARRI - 206 ARABELLA">
+        <parada>
+            <codigo_parada>2601</codigo_parada>
+            <parada>SARRIKUE</parada>
+            <correspondencias>22</correspondencias>
+            <longitud>-2.9110548107705161</longitud>
+            <latitud>43.262833954969189</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2605</codigo_parada>
+            <parada>ZABALBIDE 221</parada>
+            <correspondencias>22</correspondencias>
+            <longitud>-2.90797785559038</longitud>
+            <latitud>43.264590772408049</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2713</codigo_parada>
+            <parada>ATXETABIDEA / JESUITINAS</parada>
+            <correspondencias>22</correspondencias>
+            <longitud>-2.9089856913982781</longitud>
+            <latitud>43.264154715001183</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>2714</codigo_parada>
+            <parada>ATXETABIDEA 47</parada>
+            <correspondencias>22</correspondencias>
+            <longitud>-2.9104648274718112</longitud>
+            <latitud>43.263554379061922</latitud>
+        </parada>
+    </zona>
+    <zona nombre="7 ERREKALDE - 703 ERREKALDEBERRI">
+        <parada>
+            <codigo_parada>27313</codigo_parada>
+            <parada>GORDÓNIZ 90</parada>
+            <correspondencias>76</correspondencias>
+            <longitud>-2.9469827504896671</longitud>
+            <latitud>43.24941308208323</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7101</codigo_parada>
+            <parada>AMETZOLA</parada>
+            <correspondencias>A8</correspondencias>
+            <longitud>-2.9435194737210315</longitud>
+            <latitud>43.254426697379671</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7301</codigo_parada>
+            <parada>ARTAZUGOIKOA</parada>
+            <correspondencias>76</correspondencias>
+            <longitud>-2.9421263351479774</longitud>
+            <latitud>43.246458318044546</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7302</codigo_parada>
+            <parada>BENITO ALBERDI fte. 6</parada>
+            <correspondencias>57</correspondencias>
+            <longitud>-2.945126799234878</longitud>
+            <latitud>43.252547647620169</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7303</codigo_parada>
+            <parada>CAMILO VILLABASO fte. 27</parada>
+            <correspondencias>27, G3</correspondencias>
+            <longitud>-2.9475954912333839</longitud>
+            <latitud>43.251721345293163</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7304</codigo_parada>
+            <parada>CIUDADELA 1</parada>
+            <correspondencias>72, A8, G3</correspondencias>
+            <longitud>-2.9456121037390988</longitud>
+            <latitud>43.252562699237295</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7305</codigo_parada>
+            <parada>CIUDADELA 2A</parada>
+            <correspondencias>72, 77, A8, G3</correspondencias>
+            <longitud>-2.9450627058107086</longitud>
+            <latitud>43.252228054257507</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7306</codigo_parada>
+            <parada>ERREKALDE-LARRASKITU 1</parada>
+            <correspondencias>72, 76, A8, G3</correspondencias>
+            <longitud>-2.9440787461613307</longitud>
+            <latitud>43.251808639963812</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7308</codigo_parada>
+            <parada>GORDÓNIZ fte. 54</parada>
+            <correspondencias>27, 76, 77, G3</correspondencias>
+            <longitud>-2.9462359354645371</longitud>
+            <latitud>43.252276595282424</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7310</codigo_parada>
+            <parada>GORDÓNIZ 36</parada>
+            <correspondencias>27, 57, 72, 77, A8, G3</correspondencias>
+            <longitud>-2.9447574496610045</longitud>
+            <latitud>43.25437681533861</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7311</codigo_parada>
+            <parada>GORDÓNIZ 49A</parada>
+            <correspondencias>27, 57, 72, 77, A8, G3</correspondencias>
+            <longitud>-2.9446592349057878</longitud>
+            <latitud>43.254355940464166</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7312</codigo_parada>
+            <parada>GORDÓNIZ 54</parada>
+            <correspondencias>72, 76, 77</correspondencias>
+            <longitud>-2.9462853221592238</longitud>
+            <latitud>43.252495702145126</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7313</codigo_parada>
+            <parada>GORDÓNIZ 90</parada>
+            <correspondencias>72, 76, 77</correspondencias>
+            <longitud>-2.9469827489483622</longitud>
+            <latitud>43.249413081937391</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7314</codigo_parada>
+            <parada>GOYA 7</parada>
+            <correspondencias>27, 57, G3</correspondencias>
+            <longitud>-2.9464891257715426</longitud>
+            <latitud>43.252884164160783</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7316</codigo_parada>
+            <parada>JAÉN 7</parada>
+            <correspondencias>57</correspondencias>
+            <longitud>-2.9432308044341124</longitud>
+            <latitud>43.252822646689275</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7317</codigo_parada>
+            <parada>XALBADOR / fte. ALHÓNDIGA</parada>
+            <correspondencias>76</correspondencias>
+            <longitud>-2.9448472314498417</longitud>
+            <latitud>43.248942722444177</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7318</codigo_parada>
+            <parada>XALBADOR / ALHÓNDIGA</parada>
+            <correspondencias>76</correspondencias>
+            <longitud>-2.9447654186689385</longitud>
+            <latitud>43.24892680470073</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7319</codigo_parada>
+            <parada>XALBADOR / FILOMENA BALDEZATE</parada>
+            <correspondencias>76</correspondencias>
+            <longitud>-2.9448211744828474</longitud>
+            <latitud>43.2501730574428</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7320</codigo_parada>
+            <parada>ARTAZUGOIKOA / ESCUELA</parada>
+            <correspondencias>76</correspondencias>
+            <longitud>-2.9416990736408737</longitud>
+            <latitud>43.246740568449866</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7322</codigo_parada>
+            <parada>HIJAS DE LA CARIDAD fte.118</parada>
+            <correspondencias>72, G3</correspondencias>
+            <longitud>-2.941022491782411</longitud>
+            <latitud>43.246192502241222</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7323</codigo_parada>
+            <parada>HIJAS DE LA CARIDAD 126</parada>
+            <correspondencias>72, 77, G3</correspondencias>
+            <longitud>-2.9411015190991932</longitud>
+            <latitud>43.246533562595914</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7324</codigo_parada>
+            <parada>AVENIDA FERROCARRIL</parada>
+            <correspondencias>57</correspondencias>
+            <longitud>-2.9425286867338336</longitud>
+            <latitud>43.254022472745831</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7325</codigo_parada>
+            <parada>LA ROSETA</parada>
+            <correspondencias>76</correspondencias>
+            <longitud>-2.9436400583081608</longitud>
+            <latitud>43.244425481531138</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7327</codigo_parada>
+            <parada>LEON DE URUÑUELA 4</parada>
+            <correspondencias>I3</correspondencias>
+            <longitud>-2.9476517772456949</longitud>
+            <latitud>43.249642351735424</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7328</codigo_parada>
+            <parada>MATILDE ORBEGOZO</parada>
+            <correspondencias>76</correspondencias>
+            <longitud>-2.9427468681480136</longitud>
+            <latitud>43.246132091309534</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7329</codigo_parada>
+            <parada>GORDÓNIZ 99</parada>
+            <correspondencias>27, 76, 77, G3</correspondencias>
+            <longitud>-2.9468880218841513</longitud>
+            <latitud>43.249722444108571</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7410</codigo_parada>
+            <parada>ERREKALDE-LARRASKITU 2</parada>
+            <correspondencias>72, 76, 77, A8</correspondencias>
+            <longitud>-2.9435042114613528</longitud>
+            <latitud>43.251489710056774</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7501</codigo_parada>
+            <parada>ALTUBE 12</parada>
+            <correspondencias>27, G3</correspondencias>
+            <longitud>-2.9489337832559457</longitud>
+            <latitud>43.2518948203203</latitud>
+        </parada>
+    </zona>
+    <zona nombre="7 ERREKALDE - 705 URETAMENDI">
+        <parada>
+            <codigo_parada>27508</codigo_parada>
+            <parada>CIRCUNVALACIÓN 1</parada>
+            <correspondencias>G3</correspondencias>
+            <longitud>-2.94891056761079</longitud>
+            <latitud>43.251259267473955</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>27509</codigo_parada>
+            <parada>CIRCUNVALACIÓN 12</parada>
+            <correspondencias>G3</correspondencias>
+            <longitud>-2.9495160477501439</longitud>
+            <latitud>43.249876278695567</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>27510</codigo_parada>
+            <parada>URETAMENDI</parada>
+            <correspondencias>G3</correspondencias>
+            <longitud>-2.9493523770798982</longitud>
+            <latitud>43.248702289556853</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7502</codigo_parada>
+            <parada>BETOLATZA 41</parada>
+            <correspondencias>27, G3</correspondencias>
+            <longitud>-2.9503600303775013</longitud>
+            <latitud>43.249104950099479</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7503</codigo_parada>
+            <parada>BETOLATZA 51</parada>
+            <correspondencias>27, G3</correspondencias>
+            <longitud>-2.9507336296204576</longitud>
+            <latitud>43.247988325005778</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7508</codigo_parada>
+            <parada>CIRCUNVALACIÓN 1</parada>
+            <correspondencias>27, G3</correspondencias>
+            <longitud>-2.9489105670884244</longitud>
+            <latitud>43.251259267420963</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7509</codigo_parada>
+            <parada>CIRCUNVALACIÓN 12</parada>
+            <correspondencias>27, G3, I3, I4</correspondencias>
+            <longitud>-2.949516047488927</longitud>
+            <latitud>43.249876278669149</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7510</codigo_parada>
+            <parada>URETAMENDI</parada>
+            <correspondencias>27, G3</correspondencias>
+            <longitud>-2.9493523765574929</longitud>
+            <latitud>43.248702289504244</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7511</codigo_parada>
+            <parada>ARMOTXABIDEA</parada>
+            <correspondencias>27, G3</correspondencias>
+            <longitud>-2.9506919624216295</longitud>
+            <latitud>43.246968986800731</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7512</codigo_parada>
+            <parada>BETOLATZA 12</parada>
+            <correspondencias>I4</correspondencias>
+            <longitud>-2.9498262086292497</longitud>
+            <latitud>43.249912354805211</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7602</codigo_parada>
+            <parada>ITURRIGORRIBIDEA 37</parada>
+            <correspondencias>27, 72, 77, G3</correspondencias>
+            <longitud>-2.9483295642697027</longitud>
+            <latitud>43.246925631083094</latitud>
+        </parada>
+    </zona>
+    <zona nombre="3 OTXARKOAGA-TXURDINAGA - 301 OTXARKOAGA">
+        <parada>
+            <codigo_parada>3101</codigo_parada>
+            <parada>ARBOLANTXA 18</parada>
+            <correspondencias>03, G2</correspondencias>
+            <longitud>-2.8967112950273641</longitud>
+            <latitud>43.260834053563968</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3102</codigo_parada>
+            <parada>JULIÁN GAIARRE fte. 61</parada>
+            <correspondencias>43</correspondencias>
+            <longitud>-2.89915611339477</longitud>
+            <latitud>43.257348462946183</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3103</codigo_parada>
+            <parada>KEPA ENBEITA &quot;URRETXINDORRA&quot;</parada>
+            <correspondencias>03</correspondencias>
+            <longitud>-2.900367556425564</longitud>
+            <latitud>43.25941340451044</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3104</codigo_parada>
+            <parada>LANGARAN fte. 3</parada>
+            <correspondencias>34</correspondencias>
+            <longitud>-2.8980435229061126</longitud>
+            <latitud>43.257962757627816</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3105</codigo_parada>
+            <parada>LANGARAN 44</parada>
+            <correspondencias>34</correspondencias>
+            <longitud>-2.8979657595612327</longitud>
+            <latitud>43.260535245774967</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3106</codigo_parada>
+            <parada>LARRATUNDU 21</parada>
+            <correspondencias>03, 34, G2</correspondencias>
+            <longitud>-2.8988796830652852</longitud>
+            <latitud>43.260868919849159</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3107</codigo_parada>
+            <parada>PAU CASALS fte. 21</parada>
+            <correspondencias>34</correspondencias>
+            <longitud>-2.8991051668063124</longitud>
+            <latitud>43.257716612397722</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3108</codigo_parada>
+            <parada>PAU CASALS / JESÚS GALÍNDEZ</parada>
+            <correspondencias>03</correspondencias>
+            <longitud>-2.9027771663519082</longitud>
+            <latitud>43.258691695934353</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3109</codigo_parada>
+            <parada>PAU CASALS 16</parada>
+            <correspondencias>34, 38, 43</correspondencias>
+            <longitud>-2.9003891515863813</longitud>
+            <latitud>43.259350102210135</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3110</codigo_parada>
+            <parada>TXOTENA  / LANGARAN</parada>
+            <correspondencias>34</correspondencias>
+            <longitud>-2.8977738362837675</longitud>
+            <latitud>43.258930856965485</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3111</codigo_parada>
+            <parada>TXOTENA 62</parada>
+            <correspondencias>34</correspondencias>
+            <longitud>-2.8967577308189583</longitud>
+            <latitud>43.258756582377124</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3112</codigo_parada>
+            <parada>TXOTENA 8</parada>
+            <correspondencias>34</correspondencias>
+            <longitud>-2.8965892351744249</longitud>
+            <latitud>43.257419181841463</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3113</codigo_parada>
+            <parada>UGARTE fte. 7</parada>
+            <correspondencias>43</correspondencias>
+            <longitud>-2.9013015899110153</longitud>
+            <latitud>43.260622470395944</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3114</codigo_parada>
+            <parada>UGARTE 2</parada>
+            <correspondencias>43</correspondencias>
+            <longitud>-2.9004281846129327</longitud>
+            <latitud>43.261368123791144</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3115</codigo_parada>
+            <parada>ZIZERUENA / IGLESIA</parada>
+            <correspondencias>03, 43, G2</correspondencias>
+            <longitud>-2.9005579575560341</longitud>
+            <latitud>43.259704634156421</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3116</codigo_parada>
+            <parada>ZIZERUENA 22</parada>
+            <correspondencias>03, G2</correspondencias>
+            <longitud>-2.899631123910662</longitud>
+            <latitud>43.261355358324423</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3204</codigo_parada>
+            <parada>ORNILLA / PAU CASALS</parada>
+            <correspondencias>03, 34, 38, 43, G2</correspondencias>
+            <longitud>-2.9027753983035343</longitud>
+            <latitud>43.258460139140169</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3222</codigo_parada>
+            <parada>JULIÁN GAIARRE 61</parada>
+            <correspondencias>34, 38, 43, G2</correspondencias>
+            <longitud>-2.8992207291858718</longitud>
+            <latitud>43.257399517908</latitud>
+        </parada>
+    </zona>
+    <zona nombre="3 OTXARKOAGA-TXURDINAGA - 302 TXURDINAGA">
+        <parada>
+            <codigo_parada>3201</codigo_parada>
+            <parada>ARTALANDIO 3</parada>
+            <correspondencias>13, 30, 38</correspondencias>
+            <longitud>-2.90383238849572</longitud>
+            <latitud>43.2562750425702</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3202</codigo_parada>
+            <parada>ORNILLA fte.12</parada>
+            <correspondencias>34, 43</correspondencias>
+            <longitud>-2.9072610142251714</longitud>
+            <latitud>43.254931230696315</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3203</codigo_parada>
+            <parada>ORNILLA / ARTALANDIO</parada>
+            <correspondencias>34, 43</correspondencias>
+            <longitud>-2.904465922266279</longitud>
+            <latitud>43.256140270346542</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3205</codigo_parada>
+            <parada>FERNANDO JIMÉNEZ 12</parada>
+            <correspondencias>30</correspondencias>
+            <longitud>-2.9045803278660363</longitud>
+            <latitud>43.25080284765113</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3206</codigo_parada>
+            <parada>GABRIEL ARESTI / fte. AMBULATORIO</parada>
+            <correspondencias>38, G2</correspondencias>
+            <longitud>-2.9072558169178366</longitud>
+            <latitud>43.257437475421838</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3208</codigo_parada>
+            <parada>GARAIZAR fte. 16</parada>
+            <correspondencias>43</correspondencias>
+            <longitud>-2.9033571277924488</longitud>
+            <latitud>43.260386644755016</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3209</codigo_parada>
+            <parada>GARAIZAR / IKASTOLA</parada>
+            <correspondencias>43</correspondencias>
+            <longitud>-2.904877872766872</longitud>
+            <latitud>43.261541742685907</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3210</codigo_parada>
+            <parada>JESÚS GALÍNDEZ / ADORATRICES</parada>
+            <correspondencias>03</correspondencias>
+            <longitud>-2.9046990859017803</longitud>
+            <latitud>43.260406649648715</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3211</codigo_parada>
+            <parada>JESÚS GALÍNDEZ / TXOMIN GARAT</parada>
+            <correspondencias>03</correspondencias>
+            <longitud>-2.9097547410931268</longitud>
+            <latitud>43.257850265476762</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3213</codigo_parada>
+            <parada>JESÚS GALÍNDEZ 26</parada>
+            <correspondencias>03, 38, 43, G2</correspondencias>
+            <longitud>-2.9048286268625008</longitud>
+            <latitud>43.260382656624941</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3214</codigo_parada>
+            <parada>JESÚS GALÍNDEZ 3</parada>
+            <correspondencias>03</correspondencias>
+            <longitud>-2.9090662001117145</longitud>
+            <latitud>43.258959885101838</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3215</codigo_parada>
+            <parada>JULIÁN GAIARRE fte. 39</parada>
+            <correspondencias>43</correspondencias>
+            <longitud>-2.9007631356080843</longitud>
+            <latitud>43.25551551855461</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3216</codigo_parada>
+            <parada>JULIÁN GAIARRE fte. 6</parada>
+            <correspondencias>34, 43, G2</correspondencias>
+            <longitud>-2.9037231465001838</longitud>
+            <latitud>43.250362284492226</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3217</codigo_parada>
+            <parada>JULIÁN GAIARRE 10</parada>
+            <correspondencias>13</correspondencias>
+            <longitud>-2.903397673642528</longitud>
+            <latitud>43.250742501828718</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3218</codigo_parada>
+            <parada>JULIÁN GAIARRE 23</parada>
+            <correspondencias>34, 43, G2</correspondencias>
+            <longitud>-2.9022797786336061</longitud>
+            <latitud>43.253021928451048</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3219</codigo_parada>
+            <parada>JULIÁN GAIARRE 33</parada>
+            <correspondencias>30</correspondencias>
+            <longitud>-2.9011735799025522</longitud>
+            <latitud>43.25505062051117</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3220</codigo_parada>
+            <parada>JULIÁN GAIARRE 36</parada>
+            <correspondencias>13, 30</correspondencias>
+            <longitud>-2.9023986302036571</longitud>
+            <latitud>43.252555710543007</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3221</codigo_parada>
+            <parada>JULIÁN GAIARRE 39</parada>
+            <correspondencias>34, 38, 43, G2</correspondencias>
+            <longitud>-2.9007811252431712</longitud>
+            <latitud>43.2555894170618</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3223</codigo_parada>
+            <parada>JULIÁN GAIARRE 82</parada>
+            <correspondencias>13, 30</correspondencias>
+            <longitud>-2.9010917369237426</longitud>
+            <latitud>43.254974490993661</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3224</codigo_parada>
+            <parada>ONDARROA / PARQUE</parada>
+            <correspondencias>30</correspondencias>
+            <longitud>-2.9037759751557228</longitud>
+            <latitud>43.253379388521516</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3225</codigo_parada>
+            <parada>TXOMIN GARAT 12</parada>
+            <correspondencias>30</correspondencias>
+            <longitud>-2.9068844018404811</longitud>
+            <latitud>43.256862841019768</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3226</codigo_parada>
+            <parada>TXOMIN GARAT 4</parada>
+            <correspondencias>13, 30, 38, A9, G2</correspondencias>
+            <longitud>-2.9098947024818664</longitud>
+            <latitud>43.2572491517549</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3227</codigo_parada>
+            <parada>TXOMIN GARAT 40</parada>
+            <correspondencias>30, G2</correspondencias>
+            <longitud>-2.9048058035840447</longitud>
+            <latitud>43.256505237486088</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3228</codigo_parada>
+            <parada>TXOMIN GARAT 9</parada>
+            <correspondencias>13, 30, 38, G2</correspondencias>
+            <longitud>-2.9069053816540973</longitud>
+            <latitud>43.257054947323567</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3229</codigo_parada>
+            <parada>ZABALBIDE fte. 61</parada>
+            <correspondencias>13, 30, 38, A9, G2</correspondencias>
+            <longitud>-2.9110035913442456</longitud>
+            <latitud>43.257994814201943</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3230</codigo_parada>
+            <parada>ZUMALACARREGUI / fte. MAKUA</parada>
+            <correspondencias>03</correspondencias>
+            <longitud>-2.911876598739418</longitud>
+            <latitud>43.256988763150673</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3231</codigo_parada>
+            <parada>AMBULATORIO TXURDINAGA</parada>
+            <correspondencias>A9</correspondencias>
+            <longitud>-2.9082452326592856</longitud>
+            <latitud>43.257218905880173</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3234</codigo_parada>
+            <parada>GABRIEL ARESTI / ARBIDEA</parada>
+            <correspondencias>13</correspondencias>
+            <longitud>-2.9079024092589707</longitud>
+            <latitud>43.255379341625584</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4105</codigo_parada>
+            <parada>MAKUA</parada>
+            <correspondencias>13</correspondencias>
+            <longitud>-2.9120546746655624</longitud>
+            <latitud>43.256886949548573</latitud>
+        </parada>
+    </zona>
+    <zona nombre="3 OTXARKOAGA-TXURDINAGA - 303 DISEMINADO">
+        <parada>
+            <codigo_parada>3301</codigo_parada>
+            <parada>ORUETA</parada>
+            <correspondencias>A9</correspondencias>
+            <longitud>-2.9033825952125678</longitud>
+            <latitud>43.265074382498</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3302</codigo_parada>
+            <parada>Fte. ORUETA</parada>
+            <correspondencias>A9</correspondencias>
+            <longitud>-2.9032022196044007</longitud>
+            <latitud>43.265046792953967</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3303</codigo_parada>
+            <parada>MIKOLETA</parada>
+            <correspondencias>A9</correspondencias>
+            <longitud>-2.8990179900956088</longitud>
+            <latitud>43.266291384949753</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3304</codigo_parada>
+            <parada>Fte. MIKOLETA</parada>
+            <correspondencias>A9</correspondencias>
+            <longitud>-2.8974019340732347</longitud>
+            <latitud>43.26589311635793</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3305</codigo_parada>
+            <parada>ETXEARTE</parada>
+            <correspondencias>A9</correspondencias>
+            <longitud>-2.8900179448471546</longitud>
+            <latitud>43.264594526496239</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3306</codigo_parada>
+            <parada>Fte. ETXEARTE</parada>
+            <correspondencias>A9</correspondencias>
+            <longitud>-2.8898938972987209</longitud>
+            <latitud>43.264409219414716</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>3307</codigo_parada>
+            <parada>HOSPITAL SANTA MARINA</parada>
+            <correspondencias>A9</correspondencias>
+            <longitud>-2.8830583183964786</longitud>
+            <latitud>43.262323591268469</latitud>
+        </parada>
+    </zona>
+    <zona nombre="4 BEGOÑA - 402 SANTUTXU">
+        <parada>
+            <codigo_parada>4201</codigo_parada>
+            <parada>ANTONIO EGUILUZ 19</parada>
+            <correspondencias>40</correspondencias>
+            <longitud>-2.9118957310360383</longitud>
+            <latitud>43.250694751049387</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4202</codigo_parada>
+            <parada>CIRCO AMATEUR / POLIDEPORTIVO</parada>
+            <correspondencias>34, 43, G2, G7</correspondencias>
+            <longitud>-2.9084859425141447</longitud>
+            <latitud>43.249584680323913</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4203</codigo_parada>
+            <parada>ENRIQUE IBARRETA 2</parada>
+            <correspondencias>34, 43</correspondencias>
+            <longitud>-2.9108061354830816</longitud>
+            <latitud>43.254474076025318</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4204</codigo_parada>
+            <parada>INDALECIO PRIETO fte. 12</parada>
+            <correspondencias>40, 77</correspondencias>
+            <longitud>-2.9175309621195438</longitud>
+            <latitud>43.250011620349923</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4205</codigo_parada>
+            <parada>INDALECIO PRIETO 1</parada>
+            <correspondencias>40, 55, 77</correspondencias>
+            <longitud>-2.91938976494118</longitud>
+            <latitud>43.248904055790639</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4206</codigo_parada>
+            <parada>INDALECIO PRIETO 16</parada>
+            <correspondencias>55, G7</correspondencias>
+            <longitud>-2.91690308575392</longitud>
+            <latitud>43.250014083221124</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4208</codigo_parada>
+            <parada>ITURRIAGA 58</parada>
+            <correspondencias>34, 43, 48, G7</correspondencias>
+            <longitud>-2.9106395873005795</longitud>
+            <latitud>43.251668191830944</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4209</codigo_parada>
+            <parada>SANTA CLARA fte. 12</parada>
+            <correspondencias>48, G7</correspondencias>
+            <longitud>-2.9119869303044861</longitud>
+            <latitud>43.255009249119347</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4210</codigo_parada>
+            <parada>SANTUTXU fte.45</parada>
+            <correspondencias>40</correspondencias>
+            <longitud>-2.9147740093544479</longitud>
+            <latitud>43.251019168438383</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4211</codigo_parada>
+            <parada>SANTUTXU 18</parada>
+            <correspondencias>40, 48</correspondencias>
+            <longitud>-2.9156515850765548</longitud>
+            <latitud>43.253102204017658</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4212</codigo_parada>
+            <parada>SANTUTXU 2</parada>
+            <correspondencias>40, 48</correspondencias>
+            <longitud>-2.916965628977723</longitud>
+            <latitud>43.254640568386428</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4213</codigo_parada>
+            <parada>SANTUTXU 48</parada>
+            <correspondencias>40, 48</correspondencias>
+            <longitud>-2.9146946319977345</longitud>
+            <latitud>43.251738772777578</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4217</codigo_parada>
+            <parada>INDALECIO PRIETO / JM LIDÓN</parada>
+            <correspondencias>55, 77, G7</correspondencias>
+            <longitud>-2.9188585730494454</longitud>
+            <latitud>43.249055156829975</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4302</codigo_parada>
+            <parada>CIRCO AMATEUR / fte. POLIDEPORTIVO</parada>
+            <correspondencias>13</correspondencias>
+            <longitud>-2.908656231963366</longitud>
+            <latitud>43.249915506228923</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4303</codigo_parada>
+            <parada>CIRCO AMATEUR / BOLUETA</parada>
+            <correspondencias>13</correspondencias>
+            <longitud>-2.906980630577868</longitud>
+            <latitud>43.248690548903582</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5305</codigo_parada>
+            <parada>ZABALBIDE 41</parada>
+            <correspondencias>40, 48, G7</correspondencias>
+            <longitud>-2.914992515959089</longitud>
+            <latitud>43.254673337476461</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5402</codigo_parada>
+            <parada>ATXURI fte. 49</parada>
+            <correspondencias>55, 77, G7</correspondencias>
+            <longitud>-2.9215128703458997</longitud>
+            <latitud>43.251484441600368</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5404</codigo_parada>
+            <parada>ATXURI 49</parada>
+            <correspondencias>40, 55, 77</correspondencias>
+            <longitud>-2.9214671031757824</longitud>
+            <latitud>43.251550982262707</latitud>
+        </parada>
+    </zona>
+    <zona nombre="4 BEGOÑA - 403 BOLUETA">
+        <parada>
+            <codigo_parada>4301</codigo_parada>
+            <parada>BILBAO-GALDAKAO 12</parada>
+            <correspondencias>30, G7</correspondencias>
+            <longitud>-2.9068752161367124</longitud>
+            <latitud>43.248013016615289</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4305</codigo_parada>
+            <parada>SAGARMINAGA 32</parada>
+            <correspondencias>40, G7</correspondencias>
+            <longitud>-2.9136125329070244</longitud>
+            <latitud>43.249057729581068</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4306</codigo_parada>
+            <parada>CAMINO DEL PONTÓN / fte. IKASTOLA</parada>
+            <correspondencias>40</correspondencias>
+            <longitud>-2.917422311555621</longitud>
+            <latitud>43.244219087653683</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4307</codigo_parada>
+            <parada>CAMINO DEL PONTÓN / IKASTOLA</parada>
+            <correspondencias>40</correspondencias>
+            <longitud>-2.9174740836145778</longitud>
+            <latitud>43.244238600400763</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4308</codigo_parada>
+            <parada>CAMINO DEL PONTÓN 5</parada>
+            <correspondencias>40</correspondencias>
+            <longitud>-2.909593813479789</longitud>
+            <latitud>43.246427116173187</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4309</codigo_parada>
+            <parada>CAMINO DEL PONTÓN fte.3</parada>
+            <correspondencias>40</correspondencias>
+            <longitud>-2.9093404748528511</longitud>
+            <latitud>43.246523495376934</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4310</codigo_parada>
+            <parada>AVENIDA MIRAFLORES / fte. GASOLINERA</parada>
+            <correspondencias>40</correspondencias>
+            <longitud>-2.9113856763355552</longitud>
+            <latitud>43.246846375174847</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4311</codigo_parada>
+            <parada>AVENIDA MIRAFLORES / GASOLINERA</parada>
+            <correspondencias>40, G7</correspondencias>
+            <longitud>-2.911809783777124</longitud>
+            <latitud>43.246801477762624</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>4312</codigo_parada>
+            <parada>PINTOR LOSADA 26</parada>
+            <correspondencias>40</correspondencias>
+            <longitud>-2.9126211039716341</longitud>
+            <latitud>43.24847013216111</latitud>
+        </parada>
+    </zona>
+    <zona nombre="6 ABANDO - 601 ABANDO">
+        <parada>
+            <codigo_parada>5113</codigo_parada>
+            <parada>BAILÉN 1</parada>
+            <correspondencias>11, 22, 56, 58, 75, 77, 85, A2</correspondencias>
+            <longitud>-2.92603850326773</longitud>
+            <latitud>43.259968237581191</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6101</codigo_parada>
+            <parada>ALAMEDA RECALDE 11</parada>
+            <correspondencias>13, 27, 38, 48</correspondencias>
+            <longitud>-2.9334048648623665</longitud>
+            <latitud>43.266656104539322</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6102</codigo_parada>
+            <parada>ALAMEDA RECALDE 12</parada>
+            <correspondencias>13, 27, 38, 48, G1</correspondencias>
+            <longitud>-2.9337407567866216</longitud>
+            <latitud>43.266148859168808</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6103</codigo_parada>
+            <parada>ALAMEDA RECALDE 31</parada>
+            <correspondencias>13, 27, 38, 48</correspondencias>
+            <longitud>-2.9346392129861365</longitud>
+            <latitud>43.263649400831831</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6104</codigo_parada>
+            <parada>ALAMEDA SAN MAMÉS 8</parada>
+            <correspondencias>76</correspondencias>
+            <longitud>-2.9351054017365135</longitud>
+            <latitud>43.257727919389467</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6106</codigo_parada>
+            <parada>AUTONOMÍA 4</parada>
+            <correspondencias>58, 85</correspondencias>
+            <longitud>-2.9353711745370146</longitud>
+            <latitud>43.257369581675874</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6107</codigo_parada>
+            <parada>PUENTE DE DEUSTU / ZUBIARTE</parada>
+            <correspondencias>01, 10, 13, 18</correspondencias>
+            <longitud>-2.9395770740993408</longitud>
+            <latitud>43.267577732144815</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6108</codigo_parada>
+            <parada>ELCANO fte. 9</parada>
+            <correspondencias>76</correspondencias>
+            <longitud>-2.9346552706675162</longitud>
+            <latitud>43.262360299252371</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6109</codigo_parada>
+            <parada>ELCANO 2</parada>
+            <correspondencias>01, 10, 13, 18</correspondencias>
+            <longitud>-2.9368427351708815</longitud>
+            <latitud>43.2655009568999</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6110</codigo_parada>
+            <parada>ELCANO 3</parada>
+            <correspondencias>01, 10, 13, A7, G1</correspondencias>
+            <longitud>-2.9356206499803279</longitud>
+            <latitud>43.263945890156592</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6111</codigo_parada>
+            <parada>CONCHA 2</parada>
+            <correspondencias>18</correspondencias>
+            <longitud>-2.9341809404444481</longitud>
+            <latitud>43.261152689983106</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6112</codigo_parada>
+            <parada>CONCHA  26</parada>
+            <correspondencias>18, 76</correspondencias>
+            <longitud>-2.9354002119577451</longitud>
+            <latitud>43.258202749976149</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6113</codigo_parada>
+            <parada>GRAN VÍA  7</parada>
+            <correspondencias>01, 10, 28, 56, 62, 72, 77, A5, BT</correspondencias>
+            <longitud>-2.928525615126595</longitud>
+            <latitud>43.261554517223345</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6114</codigo_parada>
+            <parada>GRAN VÍA  36</parada>
+            <correspondencias>01, 10, 28, 56, 72, 77, A7, G1, G3, G6</correspondencias>
+            <longitud>-2.9335115996307524</longitud>
+            <latitud>43.262723274449314</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6115</codigo_parada>
+            <parada>GRAN VÍA  37</parada>
+            <correspondencias>01, 10, 28, 56, 62, 72, 77, G1, G6</correspondencias>
+            <longitud>-2.9338020042343116</longitud>
+            <latitud>43.2627139392367</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6116</codigo_parada>
+            <parada>PALACIO CHÁVARRI</parada>
+            <correspondencias>27, 28, 38, 48, 56, 72, 77, G3, G6</correspondencias>
+            <longitud>-2.9360433074144221</longitud>
+            <latitud>43.263297237833328</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6117</codigo_parada>
+            <parada>GRAN VÍA  8</parada>
+            <correspondencias>28, 56, 72, 77, A7, G3, G6</correspondencias>
+            <longitud>-2.9290231216569378</longitud>
+            <latitud>43.26174245473721</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6118</codigo_parada>
+            <parada>HURTADO DE AMÉZAGA 1</parada>
+            <correspondencias>30, 71, 75, 85, E2, E3, E7</correspondencias>
+            <longitud>-2.9280356544457082</longitud>
+            <latitud>43.260669324373339</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6119</codigo_parada>
+            <parada>HURTADO DE AMÉZAGA 2</parada>
+            <correspondencias>30, 58, 71, 75, 85</correspondencias>
+            <longitud>-2.927969230587891</longitud>
+            <latitud>43.260868822603491</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6120</codigo_parada>
+            <parada>HURTADO DE AMÉZAGA 15</parada>
+            <correspondencias>30, 71, 75, 85, E2, G3, G4, G5, G7</correspondencias>
+            <longitud>-2.9328843823866322</longitud>
+            <latitud>43.257941544990942</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6121</codigo_parada>
+            <parada>HURTADO DE AMÉZAGA 50</parada>
+            <correspondencias>11, 22, 30, 56, 71, 77, E2, E3, E7, G4, G5, G7</correspondencias>
+            <longitud>-2.9335771226893526</longitud>
+            <latitud>43.257604545466648</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6122</codigo_parada>
+            <parada>IBÁÑEZ DE BILBAO 14</parada>
+            <correspondencias>03, 11, 22, 28, 30, 62, 71, 72, A1, A5, A7, A9</correspondencias>
+            <longitud>-2.9275074895398379</longitud>
+            <latitud>43.263069741494121</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6123</codigo_parada>
+            <parada>JUAN DE GARAY 7</parada>
+            <correspondencias>30, 71, 75, 76, E58, G5</correspondencias>
+            <longitud>-2.9332615712838432</longitud>
+            <latitud>43.256347727565171</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6124</codigo_parada>
+            <parada>MAZARREDO 3</parada>
+            <correspondencias>03, 11, 28, 30, 62, 71, 72, A1, A5, A7, A9</correspondencias>
+            <longitud>-2.9293102605115324</longitud>
+            <latitud>43.262618261108628</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6125</codigo_parada>
+            <parada>MUSEO PLAZA 5</parada>
+            <correspondencias>01, 10, 13, 18, A7, G1</correspondencias>
+            <longitud>-2.9370418465556294</longitud>
+            <latitud>43.265880628636005</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6126</codigo_parada>
+            <parada>PLAZA CIRCULAR</parada>
+            <correspondencias>03, A2, A9, E3, E6, E7, G1, G5</correspondencias>
+            <longitud>-2.9271728192164894</longitud>
+            <latitud>43.26146388327313</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6128</codigo_parada>
+            <parada>URQUIJO 14</parada>
+            <correspondencias>11, 22, 62, 85, G1, G4, G5, G6, G7</correspondencias>
+            <longitud>-2.9325311387927178</longitud>
+            <latitud>43.259820135812646</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6129</codigo_parada>
+            <parada>AYALA fte. 2</parada>
+            <correspondencias>40, A1, G2, G4, G7, G8</correspondencias>
+            <longitud>-2.9290362927038971</longitud>
+            <latitud>43.260742597916625</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6130</codigo_parada>
+            <parada>GRAN VÍA  2</parada>
+            <correspondencias>01, 10, 40, 85, A1, G7, G8</correspondencias>
+            <longitud>-2.9278842696638674</longitud>
+            <latitud>43.26149173241307</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6131</codigo_parada>
+            <parada>GUGGENHEIM</parada>
+            <correspondencias>BT</correspondencias>
+            <longitud>-2.9353707843785264</longitud>
+            <latitud>43.267302785243444</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6132</codigo_parada>
+            <parada>AYALA 2</parada>
+            <correspondencias>G1, G3, G4, G5, G6, G7</correspondencias>
+            <longitud>-2.929437762422058</longitud>
+            <latitud>43.260994939149086</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6134</codigo_parada>
+            <parada>URQUIJO 4</parada>
+            <correspondencias>11, 22, 85, G1, G6</correspondencias>
+            <longitud>-2.930001860574571</longitud>
+            <latitud>43.261216463781956</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6204</codigo_parada>
+            <parada>PUENTE DE  DEUSTU</parada>
+            <correspondencias>01, 10, 13, 18, A7, G1</correspondencias>
+            <longitud>-2.9394376384348395</longitud>
+            <latitud>43.267588031148151</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6205</codigo_parada>
+            <parada>GRAN VÍA  41</parada>
+            <correspondencias>27, 38, 48</correspondencias>
+            <longitud>-2.9361009680100527</longitud>
+            <latitud>43.263197835971951</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6206</codigo_parada>
+            <parada>GRAN VÍA  43</parada>
+            <correspondencias>28, 56, 62, 72, 76, 77, A3, BT, G6</correspondencias>
+            <longitud>-2.9369292926120694</longitud>
+            <latitud>43.263379123011873</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6219</codigo_parada>
+            <parada>PLAZA ELÍPTICA 4</parada>
+            <correspondencias>01, 10, 13, 18, A3, G1</correspondencias>
+            <longitud>-2.9356607656579485</longitud>
+            <latitud>43.26292362599817</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7102</codigo_parada>
+            <parada>AUTONOMÍA 1</parada>
+            <correspondencias>55, 58, 85, G3</correspondencias>
+            <longitud>-2.935361045509906</longitud>
+            <latitud>43.257239101173845</latitud>
+        </parada>
+    </zona>
+    <zona nombre="5 IBAIONDO - 502 ITURRALDE">
+        <parada>
+            <codigo_parada>5202</codigo_parada>
+            <parada>FIKA 2</parada>
+            <correspondencias>A2</correspondencias>
+            <longitud>-2.9186809312853526</longitud>
+            <latitud>43.257647662813689</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5203</codigo_parada>
+            <parada>ITURRIBIDE 53</parada>
+            <correspondencias>A2</correspondencias>
+            <longitud>-2.9170271710490625</longitud>
+            <latitud>43.256895187802705</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5204</codigo_parada>
+            <parada>PRIM 22 Bis</parada>
+            <correspondencias>A2, A5</correspondencias>
+            <longitud>-2.9176949243482397</longitud>
+            <latitud>43.257621659976792</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5205</codigo_parada>
+            <parada>PRIM 36</parada>
+            <correspondencias>A2, A5</correspondencias>
+            <longitud>-2.9161554035306643</longitud>
+            <latitud>43.256747708983873</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5206</codigo_parada>
+            <parada>PRIM 52</parada>
+            <correspondencias>A5</correspondencias>
+            <longitud>-2.9144885330562769</longitud>
+            <latitud>43.256280552851983</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5207</codigo_parada>
+            <parada>PRIM 60</parada>
+            <correspondencias>A5</correspondencias>
+            <longitud>-2.9144987017601971</longitud>
+            <latitud>43.257145362559775</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5208</codigo_parada>
+            <parada>AURREKOETXEA / Esq. ITURRIBIDE</parada>
+            <correspondencias>A2</correspondencias>
+            <longitud>-2.9160386203849225</longitud>
+            <latitud>43.2565330440388</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5209</codigo_parada>
+            <parada>AURREKOETXEA / Esq. PRIM</parada>
+            <correspondencias>A5</correspondencias>
+            <longitud>-2.9155900740094465</longitud>
+            <latitud>43.2563755212806</latitud>
+        </parada>
+    </zona>
+    <zona nombre="5 IBAIONDO - 503 SOLOKOETXE">
+        <parada>
+            <codigo_parada>5301</codigo_parada>
+            <parada>FIKA 18</parada>
+            <correspondencias>A2</correspondencias>
+            <longitud>-2.919261481055861</longitud>
+            <latitud>43.25710975063938</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5302</codigo_parada>
+            <parada>FIKA 22</parada>
+            <correspondencias>A2</correspondencias>
+            <longitud>-2.9193674966511622</longitud>
+            <latitud>43.256135970907913</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5303</codigo_parada>
+            <parada>FIKA 8</parada>
+            <correspondencias>A2</correspondencias>
+            <longitud>-2.9186180623757361</longitud>
+            <latitud>43.256965525616486</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5306</codigo_parada>
+            <parada>ZABALBIDE 7</parada>
+            <correspondencias>A2, G7</correspondencias>
+            <longitud>-2.9218075043031635</longitud>
+            <latitud>43.255900020427788</latitud>
+        </parada>
+    </zona>
+    <zona nombre="5 IBAIONDO - 504 ATXURI">
+        <parada>
+            <codigo_parada>5304</codigo_parada>
+            <parada>ZABALBIDE fte. 32</parada>
+            <correspondencias>A2, G7</correspondencias>
+            <longitud>-2.919432711857759</longitud>
+            <latitud>43.255274816327528</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5401</codigo_parada>
+            <parada>ATXURI fte. 15</parada>
+            <correspondencias>55, 77, G7</correspondencias>
+            <longitud>-2.921382509474181</longitud>
+            <latitud>43.2536275283666</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5403</codigo_parada>
+            <parada>ATXURI 15</parada>
+            <correspondencias>40, 55, 77</correspondencias>
+            <longitud>-2.921326684339403</longitud>
+            <latitud>43.253616075015195</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5405</codigo_parada>
+            <parada>DIECISÉIS DE AGOSTO</parada>
+            <correspondencias>22, 72, 75, 85</correspondencias>
+            <longitud>-2.9226102902853852</longitud>
+            <latitud>43.255048879453781</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5406</codigo_parada>
+            <parada>PLAZUELA SANTOS JUANES 4</parada>
+            <correspondencias>55, 77, G7</correspondencias>
+            <longitud>-2.9221523583004747</longitud>
+            <latitud>43.2549995563666</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5407</codigo_parada>
+            <parada>PLAZUELA SANTOS JUANES 7</parada>
+            <correspondencias>40, 55, 77</correspondencias>
+            <longitud>-2.9221338796737224</longitud>
+            <latitud>43.255117703982243</latitud>
+        </parada>
+    </zona>
+    <zona nombre="5 IBAIONDO - 505 LA PEÑA">
+        <parada>
+            <codigo_parada>5501</codigo_parada>
+            <parada>ABUSU / IBAIALDE</parada>
+            <correspondencias>40, 50, 56, G4</correspondencias>
+            <longitud>-2.9236873530809437</longitud>
+            <latitud>43.241983835796027</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5502</codigo_parada>
+            <parada>ABUSU / IBAIEDER</parada>
+            <correspondencias>40, 50, 56, G4</correspondencias>
+            <longitud>-2.9213233736589967</longitud>
+            <latitud>43.2414974838262</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5503</codigo_parada>
+            <parada>ABUSU / IBAIZABAL</parada>
+            <correspondencias>40, 56, G4</correspondencias>
+            <longitud>-2.9249605282903612</longitud>
+            <latitud>43.243148223384289</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5511</codigo_parada>
+            <parada>OLLARGAN</parada>
+            <correspondencias>50</correspondencias>
+            <longitud>-2.9181860425778905</longitud>
+            <latitud>43.2394591706113</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5513</codigo_parada>
+            <parada>URAZURRUTIA</parada>
+            <correspondencias>56, G4</correspondencias>
+            <longitud>-2.9215131150740627</longitud>
+            <latitud>43.249018293826637</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5514</codigo_parada>
+            <parada>ZAMACOLA fte. 84</parada>
+            <correspondencias>56, G4</correspondencias>
+            <longitud>-2.9243359037426466</longitud>
+            <latitud>43.24489155109724</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5515</codigo_parada>
+            <parada>ZAMACOLA / ESCUELA</parada>
+            <correspondencias>40, 56, G4</correspondencias>
+            <longitud>-2.924980144673329</longitud>
+            <latitud>43.244861096366492</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5516</codigo_parada>
+            <parada>ZAMACOLA 116</parada>
+            <correspondencias>40, 50, 56, G4</correspondencias>
+            <longitud>-2.9256486540704953</longitud>
+            <latitud>43.242469397798352</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5517</codigo_parada>
+            <parada>ZAMACOLA 150</parada>
+            <correspondencias>40, 50, 56, G4</correspondencias>
+            <longitud>-2.9235697712966204</longitud>
+            <latitud>43.241261977854229</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5518</codigo_parada>
+            <parada>ZAMACOLA 168</parada>
+            <correspondencias>40, 50, 56, G4</correspondencias>
+            <longitud>-2.9215172351585648</longitud>
+            <latitud>43.240996978151564</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5519</codigo_parada>
+            <parada>ZAMACOLA 26</parada>
+            <correspondencias>56, G4</correspondencias>
+            <longitud>-2.9218606291759905</longitud>
+            <latitud>43.24952546048322</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5520</codigo_parada>
+            <parada>ZAMACOLA 4</parada>
+            <correspondencias>56, G4</correspondencias>
+            <longitud>-2.9229630950016485</longitud>
+            <latitud>43.251079362875323</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5521</codigo_parada>
+            <parada>ZAMACOLA 39</parada>
+            <correspondencias>56, G4</correspondencias>
+            <longitud>-2.9217665377509472</longitud>
+            <latitud>43.246120134914</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5522</codigo_parada>
+            <parada>ZAMACOLA 70</parada>
+            <correspondencias>56, G4</correspondencias>
+            <longitud>-2.9225822460799917</longitud>
+            <latitud>43.245739629782953</latitud>
+        </parada>
+    </zona>
+    <zona nombre="5 IBAIONDO - 510 DISEMINADO">
+        <parada>
+            <codigo_parada>5504</codigo_parada>
+            <parada>BUIA / fte. BOLINTXUBIDEA</parada>
+            <correspondencias>50</correspondencias>
+            <longitud>-2.9145201313903333</longitud>
+            <latitud>43.23280290528681</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5505</codigo_parada>
+            <parada>BUIA / BOLINTXUBIDEA</parada>
+            <correspondencias>50</correspondencias>
+            <longitud>-2.9145866845998052</longitud>
+            <latitud>43.232668663922695</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5506</codigo_parada>
+            <parada>BARRIO BUIA fte. 153</parada>
+            <correspondencias>50</correspondencias>
+            <longitud>-2.9139243390139704</longitud>
+            <latitud>43.22639641048432</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5507</codigo_parada>
+            <parada>BUIA AUZOA 153</parada>
+            <correspondencias>50</correspondencias>
+            <longitud>-2.9140086135979559</longitud>
+            <latitud>43.226432756337552</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5508</codigo_parada>
+            <parada>BUIABEKOA</parada>
+            <correspondencias>50</correspondencias>
+            <longitud>-2.9167161676577522</longitud>
+            <latitud>43.227146883830187</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5509</codigo_parada>
+            <parada>LARRASKITUBIDEA / fte. ESTRADA BEITI</parada>
+            <correspondencias>A8</correspondencias>
+            <longitud>-2.9346968459847287</longitud>
+            <latitud>43.241979259842296</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5510</codigo_parada>
+            <parada>LARRASKITUBIDEA 81</parada>
+            <correspondencias>A8</correspondencias>
+            <longitud>-2.9380982351276539</longitud>
+            <latitud>43.242918253057809</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5512</codigo_parada>
+            <parada>SAN ADRIÁN fte. 48</parada>
+            <correspondencias>A8</correspondencias>
+            <longitud>-2.9318111343596427</longitud>
+            <latitud>43.243351479839781</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7412</codigo_parada>
+            <parada>LARRASKITUBIDEA / ESTRADA BEITI</parada>
+            <correspondencias>A8</correspondencias>
+            <longitud>-2.9344555946876438</longitud>
+            <latitud>43.241967183142187</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7413</codigo_parada>
+            <parada>LARRASKITUBIDEA  88</parada>
+            <correspondencias>A8</correspondencias>
+            <longitud>-2.9367979177497952</longitud>
+            <latitud>43.242878516601039</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7414</codigo_parada>
+            <parada>LARRASKITUBIDEA  98</parada>
+            <correspondencias>A8</correspondencias>
+            <longitud>-2.94009374995103</longitud>
+            <latitud>43.242306378767694</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7415</codigo_parada>
+            <parada>SAN ADRIÁN 48</parada>
+            <correspondencias>A8</correspondencias>
+            <longitud>-2.9321449101072017</longitud>
+            <latitud>43.242868785769843</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7418</codigo_parada>
+            <parada>LARRASKITUBIDEA fte. 81</parada>
+            <correspondencias>A8</correspondencias>
+            <longitud>-2.9381252412523007</longitud>
+            <latitud>43.242939988158305</latitud>
+        </parada>
+    </zona>
+    <zona nombre="5 IBAIONDO - 506 BILBAO LA VIEJA">
+        <parada>
+            <codigo_parada>5601</codigo_parada>
+            <parada>OLANO fte.4</parada>
+            <correspondencias>11, 22, 55, 56, 58, 72, 75, 77, 85, G4, G7</correspondencias>
+            <longitud>-2.9251761705136863</longitud>
+            <latitud>43.2541365693636</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5602</codigo_parada>
+            <parada>URAZURRUTIA / SALA CUNA</parada>
+            <correspondencias>56, G4</correspondencias>
+            <longitud>-2.92321843131766</longitud>
+            <latitud>43.254024815243554</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5603</codigo_parada>
+            <parada>URAZURRUTIA 14</parada>
+            <correspondencias>56, G4</correspondencias>
+            <longitud>-2.9231266467074888</longitud>
+            <latitud>43.253744487817073</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5604</codigo_parada>
+            <parada>URAZURRUTIA 40</parada>
+            <correspondencias>56, G4</correspondencias>
+            <longitud>-2.9231045960144653</longitud>
+            <latitud>43.2523984444354</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5605</codigo_parada>
+            <parada>URAZURRUTIA 29</parada>
+            <correspondencias>56, G4</correspondencias>
+            <longitud>-2.9228613497518188</longitud>
+            <latitud>43.252013914727343</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5606</codigo_parada>
+            <parada>MIRIBILLA / ESCUELA</parada>
+            <correspondencias>55, G7</correspondencias>
+            <longitud>-2.9276922651539796</longitud>
+            <latitud>43.254314246675889</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5708</codigo_parada>
+            <parada>OLANO 10</parada>
+            <correspondencias>55</correspondencias>
+            <longitud>-2.9277827871917816</longitud>
+            <latitud>43.254358200647509</latitud>
+        </parada>
+    </zona>
+    <zona nombre="5 IBAIONDO - 507 SAN FRANCISCO">
+        <parada>
+            <codigo_parada>5701</codigo_parada>
+            <parada>CORTES fte. 2</parada>
+            <correspondencias>11, 22, 55, 56, 58, 72, 75, 77, 85, G4</correspondencias>
+            <longitud>-2.9269724432996682</longitud>
+            <latitud>43.254856350934809</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5702</codigo_parada>
+            <parada>CORTES 13</parada>
+            <correspondencias>11, 22, 55, 56, 58, 75, 77, 85, G4</correspondencias>
+            <longitud>-2.9283661697119689</longitud>
+            <latitud>43.255363199273177</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5703</codigo_parada>
+            <parada>CORTES 23</parada>
+            <correspondencias>11, 22, 55, 56, 58, 75, 77, 85, G4</correspondencias>
+            <longitud>-2.9302539753334793</longitud>
+            <latitud>43.256042946855672</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5704</codigo_parada>
+            <parada>MUELLE DE LA MERCED 3</parada>
+            <correspondencias>11, 22, 55, 56, 72, 75, 77, 85, G4</correspondencias>
+            <longitud>-2.9271632599817528</longitud>
+            <latitud>43.257107263727711</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5706</codigo_parada>
+            <parada>CORAZON DE MARIA</parada>
+            <correspondencias>55, G4, G7</correspondencias>
+            <longitud>-2.9276767984878784</longitud>
+            <latitud>43.255651293962522</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5707</codigo_parada>
+            <parada>SAN FRANCISCO 36</parada>
+            <correspondencias>55, G4, G7</correspondencias>
+            <longitud>-2.9308649381078973</longitud>
+            <latitud>43.25677333092603</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5801</codigo_parada>
+            <parada>Dr. FLEMING 1</parada>
+            <correspondencias>30, G7</correspondencias>
+            <longitud>-2.931811117748655</longitud>
+            <latitud>43.256530044289704</latitud>
+        </parada>
+    </zona>
+    <zona nombre="5 IBAIONDO - 508 ZABALA">
+        <parada>
+            <codigo_parada>5802</codigo_parada>
+            <parada>JUAN DE GARAY 11</parada>
+            <correspondencias>30, 71, 75, 76, G5</correspondencias>
+            <longitud>-2.933456536198277</longitud>
+            <latitud>43.254897711824654</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5803</codigo_parada>
+            <parada>JUAN DE GARAY 33</parada>
+            <correspondencias>71, 76, G5</correspondencias>
+            <longitud>-2.9343383519726167</longitud>
+            <latitud>43.252713464349412</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5804</codigo_parada>
+            <parada>ROTONDA JUAN DE GARAY</parada>
+            <correspondencias>57, 71, 75, 76, G5</correspondencias>
+            <longitud>-2.9337292302008433</longitud>
+            <latitud>43.250650856036316</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5805</codigo_parada>
+            <parada>XENPELAR / ZABALA</parada>
+            <correspondencias>30, 57</correspondencias>
+            <longitud>-2.9326246906132072</longitud>
+            <latitud>43.25280703927853</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5806</codigo_parada>
+            <parada>ZABALA 22</parada>
+            <correspondencias>30, G7</correspondencias>
+            <longitud>-2.9321058733810967</longitud>
+            <latitud>43.254369898498034</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5916</codigo_parada>
+            <parada>XENPELAR / TRAVESÍA ZABALA</parada>
+            <correspondencias>30, G7</correspondencias>
+            <longitud>-2.9326775719776479</longitud>
+            <latitud>43.252743382672925</latitud>
+        </parada>
+    </zona>
+    <zona nombre="5 IBAIONDO - 511 MIRIBILLA">
+        <parada>
+            <codigo_parada>5901</codigo_parada>
+            <parada>GERNIKA 1</parada>
+            <correspondencias>30, 57</correspondencias>
+            <longitud>-2.9307905883816381</longitud>
+            <latitud>43.252348736404365</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5902</codigo_parada>
+            <parada>GERNIKA 10</parada>
+            <correspondencias>30, 57</correspondencias>
+            <longitud>-2.9299840646580733</longitud>
+            <latitud>43.250561610318904</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5903</codigo_parada>
+            <parada>GERNIKA 11</parada>
+            <correspondencias>30, 57, G5</correspondencias>
+            <longitud>-2.9292433302002467</longitud>
+            <latitud>43.251170798812552</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5904</codigo_parada>
+            <parada>GERNIKA 23</parada>
+            <correspondencias>30, 57, 71, E2, E3, G5</correspondencias>
+            <longitud>-2.9269222147937186</longitud>
+            <latitud>43.249421267953949</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5905</codigo_parada>
+            <parada>GERNIKA 24</parada>
+            <correspondencias>30, 57, E2, E3</correspondencias>
+            <longitud>-2.9279436781110912</longitud>
+            <latitud>43.249379004757763</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5907</codigo_parada>
+            <parada>JULIÁN ZUGAZAGOITIA 13</parada>
+            <correspondencias>57, 71, G5</correspondencias>
+            <longitud>-2.9280801164006642</longitud>
+            <latitud>43.248791489978153</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5918</codigo_parada>
+            <parada>ASKATASUNA</parada>
+            <correspondencias>E3, E7</correspondencias>
+            <longitud>-2.9283222336673647</longitud>
+            <latitud>43.251927657044725</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5919</codigo_parada>
+            <parada>MINA SAN LUIS</parada>
+            <correspondencias>55, G7</correspondencias>
+            <longitud>-2.9295493692367254</longitud>
+            <latitud>43.253451770353955</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5920</codigo_parada>
+            <parada>CENTRO DE SALUD MIRIBILLA</parada>
+            <correspondencias>55</correspondencias>
+            <longitud>-2.9295315845763614</longitud>
+            <latitud>43.253598793197057</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5921</codigo_parada>
+            <parada>XENPELAR / GERNIKA</parada>
+            <correspondencias>55</correspondencias>
+            <longitud>-2.9312046160249841</longitud>
+            <latitud>43.252418387392126</latitud>
+        </parada>
+    </zona>
+    <zona nombre="5 IBAIONDO - 509 SAN ADRIAN">
+        <parada>
+            <codigo_parada>5906</codigo_parada>
+            <parada>GOIKO TORRE 12</parada>
+            <correspondencias>57, 71, 75, G5</correspondencias>
+            <longitud>-2.9316570184930448</longitud>
+            <latitud>43.247665117647557</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5908</codigo_parada>
+            <parada>FLORESTA</parada>
+            <correspondencias>57, 71, 75, G5</correspondencias>
+            <longitud>-2.9298633252980557</longitud>
+            <latitud>43.246878515781894</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5909</codigo_parada>
+            <parada>MARTÍN BARÚA fte. 24</parada>
+            <correspondencias>57, 71, 75</correspondencias>
+            <longitud>-2.9300068137067483</longitud>
+            <latitud>43.248565874683571</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5910</codigo_parada>
+            <parada>MARTÍN BARÚA 17</parada>
+            <correspondencias>57, 71, 75</correspondencias>
+            <longitud>-2.9316185513793869</longitud>
+            <latitud>43.249379888308177</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5911</codigo_parada>
+            <parada>SAN ADRIÁN fte. 33</parada>
+            <correspondencias>76</correspondencias>
+            <longitud>-2.9325947976770323</longitud>
+            <latitud>43.246947259008159</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5912</codigo_parada>
+            <parada>SAN ADRIÁN 17</parada>
+            <correspondencias>76</correspondencias>
+            <longitud>-2.933188485679918</longitud>
+            <latitud>43.248517752398449</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5913</codigo_parada>
+            <parada>SAN ADRIÁN 2</parada>
+            <correspondencias>57, 71, 75, 76, G5</correspondencias>
+            <longitud>-2.9338145443463941</longitud>
+            <latitud>43.249659682576329</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5914</codigo_parada>
+            <parada>SAN ADRIÁN 36</parada>
+            <correspondencias>57, 71, 75, 76, G5</correspondencias>
+            <longitud>-2.9334237002657093</longitud>
+            <latitud>43.248719123224284</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>5915</codigo_parada>
+            <parada>SAN ADRIÁN 33</parada>
+            <correspondencias>76</correspondencias>
+            <longitud>-2.9324858399719878</longitud>
+            <latitud>43.24697239827956</latitud>
+        </parada>
+    </zona>
+    <zona nombre="6 ABANDO - 602 INDAUTXU">
+        <parada>
+            <codigo_parada>6201</codigo_parada>
+            <parada>ALAMEDA SAN MAMÉS fte. 33</parada>
+            <correspondencias>76</correspondencias>
+            <longitud>-2.9375588589569435</longitud>
+            <latitud>43.25913863404309</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6202</codigo_parada>
+            <parada>AUTONOMÍA 22</parada>
+            <correspondencias>18, 58, 85, E58</correspondencias>
+            <longitud>-2.9379129335932479</longitud>
+            <latitud>43.257493159765552</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6207</codigo_parada>
+            <parada>GRAN VÍA  62</parada>
+            <correspondencias>56, A3</correspondencias>
+            <longitud>-2.9402348015015978</longitud>
+            <latitud>43.264223254397059</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6208</codigo_parada>
+            <parada>GRAN VÍA  63</parada>
+            <correspondencias>28, 56, 62, A3</correspondencias>
+            <longitud>-2.9405956599008687</longitud>
+            <latitud>43.264178481520148</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6209</codigo_parada>
+            <parada>GREGORIO DE LA REVILLA 1</parada>
+            <correspondencias>27, 38, 48, 72, 76, 77, G6</correspondencias>
+            <longitud>-2.9392592274489933</longitud>
+            <latitud>43.263639140210614</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6210</codigo_parada>
+            <parada>GREGORIO DE LA REVILLA 17</parada>
+            <correspondencias>27, 38, 48, 72, 76, 77, G6</correspondencias>
+            <longitud>-2.94009880358232</longitud>
+            <latitud>43.261580758125746</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6211</codigo_parada>
+            <parada>GREGORIO DE LA REVILLA 2</parada>
+            <correspondencias>27, 28, 38, 48, 72, 77, G3, G6</correspondencias>
+            <longitud>-2.9393223501808659</longitud>
+            <latitud>43.263659802687187</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6212</codigo_parada>
+            <parada>GREGORIO DE LA REVILLA 22</parada>
+            <correspondencias>27, 28, 38, 48, 72, 77, G3, G6</correspondencias>
+            <longitud>-2.940313718793643</longitud>
+            <latitud>43.261221106951993</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6213</codigo_parada>
+            <parada>GREGORIO DE LA REVILLA 35</parada>
+            <correspondencias>27, 38, 48, 72, 77, 88, G6</correspondencias>
+            <longitud>-2.9413046061914367</longitud>
+            <latitud>43.258623729195314</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6214</codigo_parada>
+            <parada>GREGORIO DE LA REVILLA 36</parada>
+            <correspondencias>27, 38, 48, 72, 77, G3, G6</correspondencias>
+            <longitud>-2.9414638290403787</longitud>
+            <latitud>43.258378825520595</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6215</codigo_parada>
+            <parada>IPARRAGUIRRE fte. 42</parada>
+            <correspondencias>18</correspondencias>
+            <longitud>-2.9374381620260581</longitud>
+            <latitud>43.26065923089822</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6216</codigo_parada>
+            <parada>IPARRAGUIRRE 29</parada>
+            <correspondencias>18</correspondencias>
+            <longitud>-2.9365106729232888</longitud>
+            <latitud>43.262908534743886</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6221</codigo_parada>
+            <parada>URQUIJO 68</parada>
+            <correspondencias>28, 62, 88</correspondencias>
+            <longitud>-2.942052230964749</longitud>
+            <latitud>43.261373064095565</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6222</codigo_parada>
+            <parada>URQUIJO  92</parada>
+            <correspondencias>28, 62</correspondencias>
+            <longitud>-2.9456184942990622</longitud>
+            <latitud>43.262154662137583</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6223</codigo_parada>
+            <parada>URRUTIA 1</parada>
+            <correspondencias>88</correspondencias>
+            <longitud>-2.9401309656473895</longitud>
+            <latitud>43.259937464562711</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6224</codigo_parada>
+            <parada>GRAN VÍA  74</parada>
+            <correspondencias>A3</correspondencias>
+            <longitud>-2.9429271200994833</longitud>
+            <latitud>43.264817670901046</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6226</codigo_parada>
+            <parada>URQUIJO  / PLAZA BIZKAIA</parada>
+            <correspondencias>62, BT</correspondencias>
+            <longitud>-2.937135494011935</longitud>
+            <latitud>43.260304179300576</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6228</codigo_parada>
+            <parada>MARÍA DÍAZ DE HARO fte.57</parada>
+            <correspondencias>88</correspondencias>
+            <longitud>-2.9456971012364712</longitud>
+            <latitud>43.258307348188985</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6229</codigo_parada>
+            <parada>IPARRAGUIRRE 63</parada>
+            <correspondencias>18</correspondencias>
+            <longitud>-2.9385843237914782</longitud>
+            <latitud>43.258077192646844</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>6231</codigo_parada>
+            <parada>GRAN VÍA  85</parada>
+            <correspondencias>28, 56, 62, A3, BT</correspondencias>
+            <longitud>-2.9441122460442473</longitud>
+            <latitud>43.264946064529674</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7103</codigo_parada>
+            <parada>AUTONOMÍA 13</parada>
+            <correspondencias>58, 85, G3</correspondencias>
+            <longitud>-2.9376724210240948</longitud>
+            <latitud>43.25735839220129</latitud>
+        </parada>
+    </zona>
+    <zona nombre="7 ERREKALDE - 701 AMETZOLA">
+        <parada>
+            <codigo_parada>6203</codigo_parada>
+            <parada>AUTONOMÍA 50</parada>
+            <correspondencias>18, 38, 48, 58, 85, E58, G6</correspondencias>
+            <longitud>-2.9430080281617257</longitud>
+            <latitud>43.257747364257312</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7104</codigo_parada>
+            <parada>AUTONOMÍA 43</parada>
+            <correspondencias>18, 38, 48, 58, 85, 88, G6</correspondencias>
+            <longitud>-2.9427854859193281</longitud>
+            <latitud>43.257659395959621</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7106</codigo_parada>
+            <parada>GORDÓNIZ 22</parada>
+            <correspondencias>27, 72, 77, G3</correspondencias>
+            <longitud>-2.9419143003076362</longitud>
+            <latitud>43.257163112114178</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7107</codigo_parada>
+            <parada>GORDÓNIZ 39</parada>
+            <correspondencias>27, 72, 77, G3</correspondencias>
+            <longitud>-2.9423446285197619</longitud>
+            <latitud>43.256657236769</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8117</codigo_parada>
+            <parada>AVENIDA DEL FERROCARRIL / AUTONOMÍA</parada>
+            <correspondencias>57</correspondencias>
+            <longitud>-2.9461267315534845</longitud>
+            <latitud>43.257495032917355</latitud>
+        </parada>
+    </zona>
+    <zona nombre="7 ERREKALDE - 702 IRALABARRI">
+        <parada>
+            <codigo_parada>7108</codigo_parada>
+            <parada>PEDRO MARTÍNEZ ARTOLA 2</parada>
+            <correspondencias>75, 76, G5</correspondencias>
+            <longitud>-2.9350401092694427</longitud>
+            <latitud>43.256864135142408</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7201</codigo_parada>
+            <parada>BERGARA fte.12</parada>
+            <correspondencias>57, 75</correspondencias>
+            <longitud>-2.9357763240783781</longitud>
+            <latitud>43.251440341994382</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7203</codigo_parada>
+            <parada>IRALA fte.19</parada>
+            <correspondencias>75, 76, G5</correspondencias>
+            <longitud>-2.936331474857413</longitud>
+            <latitud>43.25492409891806</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7204</codigo_parada>
+            <parada>IRALA fte.53</parada>
+            <correspondencias>57, 75, 76, G5</correspondencias>
+            <longitud>-2.9376690832887866</longitud>
+            <latitud>43.252035960932147</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7205</codigo_parada>
+            <parada>IRALA 28</parada>
+            <correspondencias>57, 75, 76, G5</correspondencias>
+            <longitud>-2.9376100245447541</longitud>
+            <latitud>43.253293074727566</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7206</codigo_parada>
+            <parada>JUAN DE GARAY / GIÑA ESTRADA</parada>
+            <correspondencias>71</correspondencias>
+            <longitud>-2.9347453265976351</longitud>
+            <latitud>43.251280268591088</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7207</codigo_parada>
+            <parada>JUAN DE GARAY / GOBIERNO MILITAR</parada>
+            <correspondencias>71</correspondencias>
+            <longitud>-2.9340804731679593</longitud>
+            <latitud>43.253869501984006</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7208</codigo_parada>
+            <parada>MONASTERIO 5</parada>
+            <correspondencias>75</correspondencias>
+            <longitud>-2.9355039788490624</longitud>
+            <latitud>43.253098467440417</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7209</codigo_parada>
+            <parada>ROTONDA ESKURTZE</parada>
+            <correspondencias>57, 75, 76, G5</correspondencias>
+            <longitud>-2.9357990213685641</longitud>
+            <latitud>43.250834293812467</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7210</codigo_parada>
+            <parada>URIZAR 24 / GOBIERNO MILITAR</parada>
+            <correspondencias>75</correspondencias>
+            <longitud>-2.934647585122391</longitud>
+            <latitud>43.254545801421138</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7211</codigo_parada>
+            <parada>ESKURTZE fte. 10</parada>
+            <correspondencias>57</correspondencias>
+            <longitud>-2.9387785301853713</longitud>
+            <latitud>43.252039305939107</latitud>
+        </parada>
+    </zona>
+    <zona nombre="7 ERREKALDE - 704 LARRASKITU">
+        <parada>
+            <codigo_parada>7307</codigo_parada>
+            <parada>ERREKALDE-LARRASKITU 23</parada>
+            <correspondencias>72, 76, A8, G3</correspondencias>
+            <longitud>-2.9422165680642403</longitud>
+            <latitud>43.250947989205457</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7401</codigo_parada>
+            <parada>ARTAZUBEKOA</parada>
+            <correspondencias>A8</correspondencias>
+            <longitud>-2.9420202905199475</longitud>
+            <latitud>43.249705235030156</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7402</codigo_parada>
+            <parada>ARTAZUBEKOA fte.10</parada>
+            <correspondencias>A8</correspondencias>
+            <longitud>-2.9423614895415686</longitud>
+            <latitud>43.25059830207654</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7403</codigo_parada>
+            <parada>ARTAZUBEKOA  27</parada>
+            <correspondencias>A8</correspondencias>
+            <longitud>-2.9419286427877922</longitud>
+            <latitud>43.25006753107958</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7404</codigo_parada>
+            <parada>ERREKALDE-LARRASKITU fte. 36</parada>
+            <correspondencias>72, 76, A8, G3</correspondencias>
+            <longitud>-2.939893510767781</longitud>
+            <latitud>43.248958459491007</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7405</codigo_parada>
+            <parada>ERREKALDE-LARRASKITU / fte. IBERDROLA</parada>
+            <correspondencias>76, A8</correspondencias>
+            <longitud>-2.9338131273923884</longitud>
+            <latitud>43.244946260368891</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7406</codigo_parada>
+            <parada>ERREKALDE-LARRASKITU / fte. POLIDEPORTIVO</parada>
+            <correspondencias>72, 76, 77, A8, G3</correspondencias>
+            <longitud>-2.9371865769229717</longitud>
+            <latitud>43.245662163308744</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7407</codigo_parada>
+            <parada>ERREKALDE-LARRASKITU / PAGASARRIBIDE</parada>
+            <correspondencias>76, A8</correspondencias>
+            <longitud>-2.9344611065534014</longitud>
+            <latitud>43.24533193209497</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7408</codigo_parada>
+            <parada>ERREKALDE-LARRASKITU / POLIDEPORTIVO</parada>
+            <correspondencias>72, 76, A8, G3</correspondencias>
+            <longitud>-2.937247474871536</longitud>
+            <latitud>43.245756237963711</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7409</codigo_parada>
+            <parada>ERREKALDE-LARRASKITU 14</parada>
+            <correspondencias>72, 76, 77, A8, G3</correspondencias>
+            <longitud>-2.9422235589161247</longitud>
+            <latitud>43.250878913666234</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7411</codigo_parada>
+            <parada>ERREKALDE-LARRASKITU 36</parada>
+            <correspondencias>72, 76, 77, A8, G3</correspondencias>
+            <longitud>-2.9399767209099967</longitud>
+            <latitud>43.249013112259256</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7416</codigo_parada>
+            <parada>HIJAS DE LA CARIDAD 48</parada>
+            <correspondencias>72, 77, G3</correspondencias>
+            <longitud>-2.9386789025873576</longitud>
+            <latitud>43.245181060818709</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7417</codigo_parada>
+            <parada>HIJAS DE LA CARIDAD fte. 46</parada>
+            <correspondencias>72, G3</correspondencias>
+            <longitud>-2.9384688127903495</longitud>
+            <latitud>43.245199738387846</latitud>
+        </parada>
+    </zona>
+    <zona nombre="7 ERREKALDE - 706 ITURRIGORRI-PEÑASCAL">
+        <parada>
+            <codigo_parada>7601</codigo_parada>
+            <parada>ITURRIGORRIBIDEA fte. 45</parada>
+            <correspondencias>72, 77, G3</correspondencias>
+            <longitud>-2.9487173055040188</longitud>
+            <latitud>43.245870901425683</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7603</codigo_parada>
+            <parada>PEÑASCAL / IGLESIA</parada>
+            <correspondencias>72, 77, G3</correspondencias>
+            <longitud>-2.9491377473484457</longitud>
+            <latitud>43.2432196302035</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7604</codigo_parada>
+            <parada>PEÑASCAL fte. 29</parada>
+            <correspondencias>72, 77, G3</correspondencias>
+            <longitud>-2.9497714439170828</longitud>
+            <latitud>43.240147974492096</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7605</codigo_parada>
+            <parada>PEÑASCAL 16</parada>
+            <correspondencias>72, 77, G3</correspondencias>
+            <longitud>-2.9491107529013543</longitud>
+            <latitud>43.2434454451322</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7606</codigo_parada>
+            <parada>PEÑASCAL 29</parada>
+            <correspondencias>72, 77, G3</correspondencias>
+            <longitud>-2.9497099561602189</longitud>
+            <latitud>43.240473342868448</latitud>
+        </parada>
+    </zona>
+    <zona nombre="7 ERREKALDE - 707 DISEMINADO">
+        <parada>
+            <codigo_parada>7701</codigo_parada>
+            <parada>PEÑASCAL fte.146</parada>
+            <correspondencias>72, 77, G3</correspondencias>
+            <longitud>-2.9485313622123019</longitud>
+            <latitud>43.238788000325449</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7702</codigo_parada>
+            <parada>SAN JUSTO</parada>
+            <correspondencias>A8</correspondencias>
+            <longitud>-2.9445484290099779</longitud>
+            <latitud>43.240388771132061</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7703</codigo_parada>
+            <parada>SAN JUSTO fte. 5</parada>
+            <correspondencias>A8</correspondencias>
+            <longitud>-2.942917133802188</longitud>
+            <latitud>43.239889902319582</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>7704</codigo_parada>
+            <parada>SAN JUSTO 12</parada>
+            <correspondencias>A8</correspondencias>
+            <longitud>-2.943127813917978</longitud>
+            <latitud>43.24002729883933</latitud>
+        </parada>
+    </zona>
+    <zona nombre="8 BASURTU-ZORROTZA - 801 BASURTU">
+        <parada>
+            <codigo_parada>8103</codigo_parada>
+            <parada>BASURTUBEKOA / fte. IPARRALDE</parada>
+            <correspondencias>48, 58</correspondencias>
+            <longitud>-2.952106744904619</longitud>
+            <latitud>43.258866316194691</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8104</codigo_parada>
+            <parada>BASURTUBEKOA / IPARRALDE</parada>
+            <correspondencias>48, 58, E58, G6</correspondencias>
+            <longitud>-2.9519784980452775</longitud>
+            <latitud>43.258501559918564</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8105</codigo_parada>
+            <parada>BASURTU-KASTREXANA fte. 65</parada>
+            <correspondencias>28, 58, E58, G6</correspondencias>
+            <longitud>-2.9566495517442006</longitud>
+            <latitud>43.261015403049363</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8106</codigo_parada>
+            <parada>BASURTU-KASTREXANA 63</parada>
+            <correspondencias>28, 58</correspondencias>
+            <longitud>-2.9561023528087396</longitud>
+            <latitud>43.260744143418364</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8107</codigo_parada>
+            <parada>GURTUBAY</parada>
+            <correspondencias>28, 38</correspondencias>
+            <longitud>-2.9512900591440587</longitud>
+            <latitud>43.259988896730292</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8118</codigo_parada>
+            <parada>URKIOLA 1</parada>
+            <correspondencias>57</correspondencias>
+            <longitud>-2.9465243738316254</longitud>
+            <latitud>43.256205148070414</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8122</codigo_parada>
+            <parada>BASURTU / BRIÑAS</parada>
+            <correspondencias>18, 28, 38, 48, 57, 58, 85, 88, E58, G6</correspondencias>
+            <longitud>-2.9491066556137082</longitud>
+            <latitud>43.25801088124571</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8123</codigo_parada>
+            <parada>BASURTU / AITA DONOSTIA</parada>
+            <correspondencias>18, 38, 48, 57, 58, 85, 88, G6</correspondencias>
+            <longitud>-2.9491109365501051</longitud>
+            <latitud>43.257975596695509</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8128</codigo_parada>
+            <parada>LUIS BRIÑAS 27</parada>
+            <correspondencias>28</correspondencias>
+            <longitud>-2.9486918553856456</longitud>
+            <latitud>43.260827270845617</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8129</codigo_parada>
+            <parada>SABINO ARANA 32</parada>
+            <correspondencias>28</correspondencias>
+            <longitud>-2.9472190511881533</longitud>
+            <latitud>43.260456753467288</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8134</codigo_parada>
+            <parada>HOSPITAL BASURTO</parada>
+            <correspondencias>18, 28, 48, 57, 58, 85, 88, E58, G6</correspondencias>
+            <longitud>-2.9531510351981738</longitud>
+            <latitud>43.260163023979153</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8135</codigo_parada>
+            <parada>ESTACIÓN BASURTO</parada>
+            <correspondencias>18, 28, 48, 57, 58, 85, 88, G6</correspondencias>
+            <longitud>-2.9533614256485317</longitud>
+            <latitud>43.26012183750548</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8136</codigo_parada>
+            <parada>SAN MAMÉS</parada>
+            <correspondencias>BT</correspondencias>
+            <longitud>-2.947747807624884</longitud>
+            <latitud>43.262835019122605</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8138</codigo_parada>
+            <parada>GENERAL EGUÍA / INTERMODAL</parada>
+            <correspondencias>38</correspondencias>
+            <longitud>-2.9494120822227257</longitud>
+            <latitud>43.25996325979807</latitud>
+        </parada>
+    </zona>
+    <zona nombre="8 BASURTU-ZORROTZA - 802 OLABEAGA">
+        <parada>
+            <codigo_parada>8113</codigo_parada>
+            <parada>MONTEVIDEO / SANTA ANA</parada>
+            <correspondencias>18, 85, 88, G6</correspondencias>
+            <longitud>-2.9563812725485246</longitud>
+            <latitud>43.262567165856922</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8203</codigo_parada>
+            <parada>CAMINO VENTOSA 46</parada>
+            <correspondencias>A3</correspondencias>
+            <longitud>-2.95343421577833</longitud>
+            <latitud>43.264721792343892</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8204</codigo_parada>
+            <parada>MONTEVIDEO / fte. SANTA ANA</parada>
+            <correspondencias>18, 85, 88</correspondencias>
+            <longitud>-2.9564632138143603</longitud>
+            <latitud>43.262828665171362</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8205</codigo_parada>
+            <parada>MONTEVIDEO / OLABEAGA</parada>
+            <correspondencias>18, 85, 88</correspondencias>
+            <longitud>-2.9612733234280411</longitud>
+            <latitud>43.264992254170629</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8206</codigo_parada>
+            <parada>OLABEAGA / fte. DIQUE</parada>
+            <correspondencias>A3</correspondencias>
+            <longitud>-2.9524046522058094</longitud>
+            <latitud>43.265303380050909</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8207</codigo_parada>
+            <parada>OLABEAGA / CALLE DIQUE</parada>
+            <correspondencias>A3</correspondencias>
+            <longitud>-2.9522485653873183</longitud>
+            <latitud>43.265284706294949</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8208</codigo_parada>
+            <parada>OLABEAGA 22A</parada>
+            <correspondencias>A3</correspondencias>
+            <longitud>-2.9551382256364076</longitud>
+            <latitud>43.264921227444894</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8209</codigo_parada>
+            <parada>OLABEAGA 30</parada>
+            <correspondencias>A3</correspondencias>
+            <longitud>-2.9579544490006917</longitud>
+            <latitud>43.264807646917944</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8210</codigo_parada>
+            <parada>SAN NICOLÁS DE OLABEAGA fte. 27</parada>
+            <correspondencias>A3</correspondencias>
+            <longitud>-2.9590133724169538</longitud>
+            <latitud>43.265065139897253</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8211</codigo_parada>
+            <parada>SAN NICOLÁS DE OLABEAGA 22</parada>
+            <correspondencias>A3</correspondencias>
+            <longitud>-2.9558951420929689</longitud>
+            <latitud>43.264476476769</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8212</codigo_parada>
+            <parada>SAN NICOLÁS DE OLABEAGA 58</parada>
+            <correspondencias>A3</correspondencias>
+            <longitud>-2.9607110849193652</longitud>
+            <latitud>43.266094910327588</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8213</codigo_parada>
+            <parada>SIRGUERAS 3</parada>
+            <correspondencias>A3</correspondencias>
+            <longitud>-2.9600696839341505</longitud>
+            <latitud>43.265770918334944</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8317</codigo_parada>
+            <parada>MONTEVIDEO / fte. OLABEAGA</parada>
+            <correspondencias>18, 85, 88, G6</correspondencias>
+            <longitud>-2.9612021571251224</longitud>
+            <latitud>43.26474481904895</latitud>
+        </parada>
+    </zona>
+    <zona nombre="8 BASURTU-ZORROTZA - 803 MASUSTEGI-MONTE CARAMELO">
+        <parada>
+            <codigo_parada>8301</codigo_parada>
+            <parada>AUNTZETXETA fte. 18</parada>
+            <correspondencias>48, 58, E58, G6</correspondencias>
+            <longitud>-2.9542006809755623</longitud>
+            <latitud>43.258053346317325</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8302</codigo_parada>
+            <parada>AUNTZETXETA 18</parada>
+            <correspondencias>48, 58</correspondencias>
+            <longitud>-2.9541253576600486</longitud>
+            <latitud>43.257835188484812</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8303</codigo_parada>
+            <parada>AUNTZETXETA 4</parada>
+            <correspondencias>48, 58</correspondencias>
+            <longitud>-2.9558098339104193</longitud>
+            <latitud>43.258386778598336</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8304</codigo_parada>
+            <parada>AUNTZETXETA 7</parada>
+            <correspondencias>48, 58, E58, G6</correspondencias>
+            <longitud>-2.9558688545330085</longitud>
+            <latitud>43.258432984726184</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8305</codigo_parada>
+            <parada>BASURTUGORTA 1</parada>
+            <correspondencias>48, 58, E58, G6</correspondencias>
+            <longitud>-2.9539087603307244</longitud>
+            <latitud>43.255902600823688</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8306</codigo_parada>
+            <parada>MONTE KOBETA fte. 41</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.9602048931684886</longitud>
+            <latitud>43.256875292394753</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8308</codigo_parada>
+            <parada>LEZEAGA 14</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.9568051290037314</longitud>
+            <latitud>43.258941674940864</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8309</codigo_parada>
+            <parada>LEZEAGA 9</parada>
+            <correspondencias>58, E58, G6</correspondencias>
+            <longitud>-2.9564348926163397</longitud>
+            <latitud>43.258949016005758</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8310</codigo_parada>
+            <parada>ESTRADA MASUSTEGI / ESCALERAS</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.9593325348737225</longitud>
+            <latitud>43.253864852748045</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8311</codigo_parada>
+            <parada>ESTRADA MASUSTEGI / ESCUELA</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.9566594388523035</longitud>
+            <latitud>43.253675138762581</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8312</codigo_parada>
+            <parada>ESTRADA MASUSTEGI / MONTE CARAMELO</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.9554039747653524</longitud>
+            <latitud>43.252644580058416</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8313</codigo_parada>
+            <parada>MASUSTEGI ESTRATA 3 Bis</parada>
+            <correspondencias>48, 58</correspondencias>
+            <longitud>-2.9538612732959146</longitud>
+            <latitud>43.255856564563587</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8314</codigo_parada>
+            <parada>MONTE CARAMELO</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.9530248630263292</longitud>
+            <latitud>43.253564860247714</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8316</codigo_parada>
+            <parada>LEZEAGA 25</parada>
+            <correspondencias>48</correspondencias>
+            <longitud>-2.9552328331603008</longitud>
+            <latitud>43.256984857294576</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8603</codigo_parada>
+            <parada>MONTE KOBETA/ fte. ACCESO BARRIO</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.9602177747402973</longitud>
+            <latitud>43.255513302896709</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8606</codigo_parada>
+            <parada>MONTE KOBETA 41</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.9604843335185009</longitud>
+            <latitud>43.257083200860976</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8612</codigo_parada>
+            <parada>ESTRADA MASUSTEGI / fte. ESCALERAS</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.9595011075468474</longitud>
+            <latitud>43.253860107507663</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8613</codigo_parada>
+            <parada>ESTRADA MASUSTEGI / fte. ESCUELA</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.9567449903844474</longitud>
+            <latitud>43.253668313783628</latitud>
+        </parada>
+    </zona>
+    <zona nombre="8 BASURTU-ZORROTZA - 806 DISEMINADO">
+        <parada>
+            <codigo_parada>8307</codigo_parada>
+            <parada>MONTE KOBETA</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.9597163721533692</longitud>
+            <latitud>43.255817285899859</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8402</codigo_parada>
+            <parada>BASURTU-KASTREXANA / ALTAMIRA</parada>
+            <correspondencias>28, 58</correspondencias>
+            <longitud>-2.9624534355920695</longitud>
+            <latitud>43.263328209946337</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8601</codigo_parada>
+            <parada>ALTAMIRA</parada>
+            <correspondencias>28, 58, E58, G6</correspondencias>
+            <longitud>-2.9634902402618737</longitud>
+            <latitud>43.263369658299943</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8602</codigo_parada>
+            <parada>BASURTU-KASTREXANA / fte. ALTAMIRA</parada>
+            <correspondencias>28, 58, E58, G6</correspondencias>
+            <longitud>-2.96265698388265</longitud>
+            <latitud>43.263719191093209</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8604</codigo_parada>
+            <parada>MONTE KOBETA 33</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.9623594628826897</longitud>
+            <latitud>43.258645453363059</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8605</codigo_parada>
+            <parada>MONTE KOBETA 34</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.9621715287163495</longitud>
+            <latitud>43.258403864855588</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8608</codigo_parada>
+            <parada>KOBETABIDEA fte. 16</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.9651583259325958</longitud>
+            <latitud>43.2615391613152</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8614</codigo_parada>
+            <parada>ZORROTZA-KASTREXANA / fte. Sta. ÁGUEDA</parada>
+            <correspondencias>88</correspondencias>
+            <longitud>-2.9714835724442454</longitud>
+            <latitud>43.261420342937704</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8616</codigo_parada>
+            <parada>ZORROTZA-KASTREXANA / PUENTE DEL DIABLO</parada>
+            <correspondencias>88</correspondencias>
+            <longitud>-2.9724599964122334</longitud>
+            <latitud>43.2551075554753</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8617</codigo_parada>
+            <parada>ZORROTZA-KASTREXANA / Sta. ÁGUEDA</parada>
+            <correspondencias>88</correspondencias>
+            <longitud>-2.9715152249508265</longitud>
+            <latitud>43.261331108030248</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8618</codigo_parada>
+            <parada>ZORROTZA-KASTREXANA 185</parada>
+            <correspondencias>88</correspondencias>
+            <longitud>-2.9705577010760171</longitud>
+            <latitud>43.256945565856185</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8619</codigo_parada>
+            <parada>ZORROTZA-KASTREXANA 200</parada>
+            <correspondencias>88</correspondencias>
+            <longitud>-2.9697036812899276</longitud>
+            <latitud>43.258497750758281</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8620</codigo_parada>
+            <parada>ZUBILETA 74</parada>
+            <correspondencias>88</correspondencias>
+            <longitud>-2.9734939357851</longitud>
+            <latitud>43.255717253377711</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8621</codigo_parada>
+            <parada>ZORROTZA-KASTREXANA / fte. PUENTE DEL DIABLO</parada>
+            <correspondencias>88</correspondencias>
+            <longitud>-2.9719887138390808</longitud>
+            <latitud>43.255165994225479</latitud>
+        </parada>
+    </zona>
+    <zona nombre="8 BASURTU-ZORROTZA - 804 ALTAMIRA">
+        <parada>
+            <codigo_parada>8401</codigo_parada>
+            <parada>BASURTU-KASTREXANA fte. 125 / ALBERGUE</parada>
+            <correspondencias>28, 58, E58, G6</correspondencias>
+            <longitud>-2.9600019787220897</longitud>
+            <latitud>43.261836873307352</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8403</codigo_parada>
+            <parada>BASURTU-KASTREXANA 85</parada>
+            <correspondencias>28, 58</correspondencias>
+            <longitud>-2.9595784818695754</longitud>
+            <latitud>43.261173922738642</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8404</codigo_parada>
+            <parada>KOBETABIDEA / ALTAMIRA</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.9650443490482163</longitud>
+            <latitud>43.261717438562663</latitud>
+        </parada>
+    </zona>
+    <zona nombre="8 BASURTU-ZORROTZA - 805 ZORROTZA">
+        <parada>
+            <codigo_parada>8501</codigo_parada>
+            <parada>FRAY JUAN 35</parada>
+            <correspondencias>18, 85</correspondencias>
+            <longitud>-2.974966286077684</longitud>
+            <latitud>43.277476200780107</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8502</codigo_parada>
+            <parada>FRAY JUAN 11</parada>
+            <correspondencias>18, 85</correspondencias>
+            <longitud>-2.9721892682392497</longitud>
+            <latitud>43.276660908944066</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8503</codigo_parada>
+            <parada>ZAZPILANDA / BIDEGAIN</parada>
+            <correspondencias>18, 85, G6</correspondencias>
+            <longitud>-2.9706837163020223</longitud>
+            <latitud>43.273414958230333</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8504</codigo_parada>
+            <parada>ZAZPILANDA / MENDIGAIN</parada>
+            <correspondencias>18, 85</correspondencias>
+            <longitud>-2.9694686002586974</longitud>
+            <latitud>43.272016803642089</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8505</codigo_parada>
+            <parada>ZAZPILANDA / PINADIA</parada>
+            <correspondencias>18, 85, G6</correspondencias>
+            <longitud>-2.9692865582304049</longitud>
+            <latitud>43.272218379734014</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8506</codigo_parada>
+            <parada>ZAZPILANDA 7</parada>
+            <correspondencias>18, 85, 88</correspondencias>
+            <longitud>-2.9716347158270753</longitud>
+            <latitud>43.273227641678055</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8507</codigo_parada>
+            <parada>ZORROTZABASO fte. 12</parada>
+            <correspondencias>18, 85, G6</correspondencias>
+            <longitud>-2.971052294646062</longitud>
+            <latitud>43.271143512989681</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8508</codigo_parada>
+            <parada>ZORROTZA-KASTREXANA / fte. CIUDAD JARDÍN</parada>
+            <correspondencias>88</correspondencias>
+            <longitud>-2.9744186979610103</longitud>
+            <latitud>43.271585675303186</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8509</codigo_parada>
+            <parada>ZORROTZA-KASTREXANA 25</parada>
+            <correspondencias>18, 85, 88, G6</correspondencias>
+            <longitud>-2.972799856990993</longitud>
+            <latitud>43.275016527346516</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8511</codigo_parada>
+            <parada>ZORROTZA-KASTREXANA 77</parada>
+            <correspondencias>88</correspondencias>
+            <longitud>-2.974171175255409</longitud>
+            <latitud>43.272210858711432</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8512</codigo_parada>
+            <parada>ZORROTZA-KASTREXANA 10</parada>
+            <correspondencias>18, 85, 88</correspondencias>
+            <longitud>-2.9719519693390684</longitud>
+            <latitud>43.275707455485531</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8607</codigo_parada>
+            <parada>KOBETABIDEA fte. 104</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.965483298333556</longitud>
+            <latitud>43.264165141506162</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8609</codigo_parada>
+            <parada>KOBETABIDEA fte. 193</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.9683033390987541</longitud>
+            <latitud>43.268054411712789</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8610</codigo_parada>
+            <parada>KOBETABIDEA 104</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.9653018920130663</longitud>
+            <latitud>43.263963073445481</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8611</codigo_parada>
+            <parada>KOBETABIDEA 193</parada>
+            <correspondencias>58</correspondencias>
+            <longitud>-2.9683144909964172</longitud>
+            <latitud>43.26799340263436</latitud>
+        </parada>
+        <parada>
+            <codigo_parada>8615</codigo_parada>
+            <parada>ZORROTZA-KASTREXANA / ETXEBARRIA</parada>
+            <correspondencias>88</correspondencias>
+            <longitud>-2.9736670833796008</longitud>
+            <latitud>43.264527671183288</latitud>
+        </parada>
+    </zona>
+</paradas_bilbobus>
