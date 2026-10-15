@@ -6,6 +6,16 @@ import java.io.FileWriter;
 import java.util.List;
 import java.util.Scanner;
 
+/*
+    Klase honek erabiltzaile-menua kudeatzen du, erabiltzaileak aukerak egin ditzan eta datuak kontsultatu ditzan.
+    Menuaren aukerak honako hauek dira:
+    1. Zenbat autobus geldialdi daude guztira?
+    2. Zenbat eta zein autobus pasatzen dira gune/kale batetik? (Gorde aukera)
+    3. Bilatu geldialdiak autobus-linea zehatz baten arabera
+    4. Ikusi estatistikak (Geldialdi gehien eta gutxien dituzten guneak)
+    5. Irten
+ */
+
 public class BilbobusMenua {
 
     public static void abiaraziMenua(BilbobusGeltokiak datuak) {
@@ -122,13 +132,15 @@ public class BilbobusMenua {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
             String jsonStr = gson.toJson(zona);
             
-            String fitxategiIzena = "data/gunea_" + zona.getNombre() + ".json";
-            // Garbitu karaktere bereziak fitxategi izenetik egokia izateko
-            fitxategiIzena = "data/gunea_hautatua.json";
+            // Garbitu karaktere bereziak eta espazioak fitxategi izenetik egokia izateko
+            String izenGarbia = zona.getNombre().replaceAll("[\\\\/:*?\"<>|]", "_").replace(" ", "_");
+            
+            // Orain bai, izena dinamikoa izango da
+            String fitxategiIzena = "data/" + izenGarbia + ".json";
 
             try (FileWriter writer = new FileWriter(fitxategiIzena)) {
                 writer.write(jsonStr);
-                System.out.println("✔ Datuak arrakastaz gordetza dira hemen: " + fitxategiIzena);
+                System.out.println("✔ Datuak arrakastaz gordeta dira hemen: " + fitxategiIzena);
             }
         } catch (Exception e) {
             System.out.println("Errorea JSON-a gordetzean: " + e.getMessage());

@@ -1,19 +1,23 @@
 package paagbi;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
+import jakarta.xml.bind.JAXBContext;
+import jakarta.xml.bind.JAXBException;
+import jakarta.xml.bind.Marshaller;
+import jakarta.xml.bind.Unmarshaller;
+
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URI;
 import java.net.URL;
 import java.util.*;
+
+/**
+    (Langilea da, hau da)
+    Aplikazioaren klase nagusia da hau. Bilboko OpenData ataritik Bilbobuseko geltokien CSV fitxategia 
+    deskargatzeaz, prozesatzeaz eta JAXB erabiliz XML formatura bihurtzeaz (Marshall) arduratzen da. 
+    Ondoren, sortutako XML fitxategitik datuak kargatzen ditu (Unmarshall) eta 
+    erabiltzaile-menua abiarazten du informazioarekin elkarreragiteko.
+ */
 
 public class App {
     public static void main(String[] args) {
@@ -39,6 +43,7 @@ public class App {
         }
     }
 
+    // CSV-a deskargatu eta XML bihurtzeko metodoa, Path-arekin eta URL-arekin
     private static boolean deskargatuCSVetaBihurtuXML(String urlStr, String csvPath, String xmlPath) {
         try {
             URL url = URI.create(urlStr).toURL();
@@ -47,33 +52,53 @@ public class App {
 
             if (konexioa.getResponseCode() == HttpURLConnection.HTTP_OK) {
                 File dataDir = new File("data");
-                if (!dataDir.exists()) dataDir.mkdir();
+                if (!dataDir.exists())
+                    dataDir.mkdir();
 
                 List<String> lerroak = new ArrayList<>();
                 Map<String, List<Map<String, String>>> zonaMapa = new LinkedHashMap<>();
 
-                try (BufferedReader br = new BufferedReader(new InputStreamReader(konexioa.getInputStream(), "ISO-8859-1"))) {
+                try (BufferedReader br = new BufferedReader(
+                        new InputStreamReader(konexioa.getInputStream(), "ISO-8859-1"))) {
                     String lerroa;
                     boolean lehena = true;
 
                     while ((lerroa = br.readLine()) != null) {
                         lerroak.add(lerroa);
+                        if (lehena) {
+                            lehena = false;
+                            continue;
+                        }
 
-                        if (lehena) { lehena = false; continue; } // Goiburua saltatu
+                        // XML formatuan gordetzeko datuak separatu
+                        String[] zutabeak = lerroa.split(";", -1);
 
-                        // CSV banaketa. Zutabeen orden egokia Bilboko OpenData-n:
-                        // 0: Kodea, 1: Izena, 2: Korespondentziak, 3: Zona/Gunea, ...
-                        String[] zutabeak = lerroa.split(",");
-                        if (zutabeak.length >= 4) {
+                        if (zutabeak.length >= 5) {
                             String kodea = zutabeak[0].trim();
                             String izena = zutabeak[1].trim();
-                            String korresp = zutabeak[2].trim();
-                            String zona = zutabeak[3].trim(); // Hemen dago benetako gunea!
+                            String zona = zutabeak[2].trim();
+                            String korresp = zutabeak[3].trim();
+
+                            // POINT barruan dagoena longitud eta latitud banandu
+                            String longitud = "";
+                            String latitud = "";
+                            String geoPoint = zutabeak[4].trim();
+
+                            if (geoPoint.startsWith("POINT")) {
+                                String coords = geoPoint.replace("POINT (", "").replace(")", "");
+                                String[] lonlat = coords.split(" ");
+                                if (lonlat.length == 2) {
+                                    longitud = lonlat[0].trim();
+                                    latitud = lonlat[1].trim();
+                                }
+                            }
 
                             Map<String, String> paradaMap = new HashMap<>();
                             paradaMap.put("codigo_parada", kodea);
-                            paradaMap.put("nombre_parada", izena);
+                            paradaMap.put("parada", izena);
                             paradaMap.put("correspondencias", korresp);
+                            paradaMap.put("longitud", longitud);
+                            paradaMap.put("latitud", latitud);
 
                             zonaMapa.putIfAbsent(zona, new ArrayList<>());
                             zonaMapa.get(zona).add(paradaMap);
@@ -81,56 +106,42 @@ public class App {
                     }
                 }
 
-                // Gorde CSV fitxategia
-                try (BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(csvPath), "ISO-8859-1"))) {
+                try (BufferedWriter bw = new BufferedWriter(
+                        new OutputStreamWriter(new FileOutputStream(csvPath), "ISO-8859-1"))) {
                     for (String l : lerroak) {
                         bw.write(l);
                         bw.newLine();
                     }
                 }
 
-                // Sortu XML dokumentua
-                DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-                DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-                Document doc = dBuilder.newDocument();
-
-                Element rootElement = doc.createElement("paradas_bilbobus");
-                doc.appendChild(rootElement);
-
-                Element zonasElement = doc.createElement("zonas");
-                rootElement.appendChild(zonasElement);
+                ParadasBilbobus paradasBilbobus = new ParadasBilbobus();
+                List<Zona> zonasList = new ArrayList<>();
 
                 for (Map.Entry<String, List<Map<String, String>>> entry : zonaMapa.entrySet()) {
-                    Element zonaElement = doc.createElement("zona");
-                    zonaElement.setAttribute("nombre", entry.getKey());
-                    zonasElement.appendChild(zonaElement);
+                    Zona zonaObj = new Zona();
+                    zonaObj.setNombre(entry.getKey());
 
+                    List<Parada> paradasList = new ArrayList<>();
                     for (Map<String, String> pData : entry.getValue()) {
-                        Element paradaElement = doc.createElement("parada");
-
-                        Element kodeaEl = doc.createElement("codigo_parada");
-                        kodeaEl.setTextContent(pData.get("codigo_parada"));
-                        paradaElement.appendChild(kodeaEl);
-
-                        Element izenaEl = doc.createElement("nombre_parada");
-                        izenaEl.setTextContent(pData.get("nombre_parada"));
-                        paradaElement.appendChild(izenaEl);
-
-                        Element korrEl = doc.createElement("correspondencias");
-                        korrEl.setTextContent(pData.get("correspondencias"));
-                        paradaElement.appendChild(korrEl);
-
-                        zonaElement.appendChild(paradaElement);
+                        Parada p = new Parada();
+                        p.setCodigo_parada(pData.get("codigo_parada"));
+                        p.setParada(pData.get("parada"));
+                        p.setCorrespondencias(pData.get("correspondencias"));
+                        p.setLongitud(pData.get("longitud"));
+                        p.setLatitud(pData.get("latitud"));
+                        paradasList.add(p);
                     }
+                    zonaObj.setParada(paradasList);
+                    zonasList.add(zonaObj);
                 }
+                paradasBilbobus.setZona(zonasList);
 
-                // Gorde XML fitxategia
-                TransformerFactory transformerFactory = TransformerFactory.newInstance();
-                Transformer transformer = transformerFactory.newTransformer();
-                transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-                DOMSource source = new DOMSource(doc);
-                StreamResult result = new StreamResult(new File(xmlPath));
-                transformer.transform(source, result);
+                // MARSHALLER-a erabiliz XML-a sortu
+                JAXBContext jaxbContext = JAXBContext.newInstance(ParadasBilbobus.class);
+                Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
+                jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+
+                jaxbMarshaller.marshal(paradasBilbobus, new File(xmlPath));
 
                 return true;
             }
@@ -140,18 +151,20 @@ public class App {
         return false;
     }
 
+    // XML fitxategia kargatzeko metodoa
     private static BilbobusGeltokiak kargatuXML(String xmlPath) {
         try {
-            File fXmlFile = new File(xmlPath);
-            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-            Document doc = dBuilder.parse(fXmlFile);
-            doc.getDocumentElement().normalize();
+            File file = new File(xmlPath);
+            JAXBContext jaxbContext = JAXBContext.newInstance(ParadasBilbobus.class);
+            Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+            ParadasBilbobus paradasBilbobus = (ParadasBilbobus) jaxbUnmarshaller.unmarshal(file);
 
-            return BilbobusGeltokiak.lortuXMLtik(doc);
+            BilbobusGeltokiak geltokiak = new BilbobusGeltokiak();
+            geltokiak.setParadas_bilbobus(paradasBilbobus);
+            return geltokiak;
 
-        } catch (Exception e) {
-            System.out.println("Errorea XML irakurtzean: " + e.getMessage());
+        } catch (JAXBException e) {
+            System.out.println("Errorea XML irakurtzean (Unmarshal): " + e.getMessage());
         }
         return null;
     }
