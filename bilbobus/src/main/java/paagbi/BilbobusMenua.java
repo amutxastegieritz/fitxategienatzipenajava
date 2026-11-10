@@ -1,9 +1,14 @@
 package paagbi;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+import jakarta.json.Json;
+import jakarta.json.JsonArrayBuilder;
+import jakarta.json.JsonObject;
+import jakarta.json.JsonWriter;
+import jakarta.json.JsonWriterFactory;
+import jakarta.json.stream.JsonGenerator;
 import java.io.FileWriter;
 import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 
 /*
@@ -67,8 +72,8 @@ public class BilbobusMenua {
 
     private static void kalkulatuGeldialdiGuztiak(BilbobusGeltokiak datuak) {
         int totala = 0;
-        if (datuak != null && datuak.getParadas_bilbobus() != null && datuak.getParadas_bilbobus().getZona() != null) {
-            for (Zona zona : datuak.getParadas_bilbobus().getZona()) {
+        if (datuak != null && datuak.getZona() != null) {
+            for (Zona zona : datuak.getZona()) {
                 if (zona.getParada() != null) {
                     totala += zona.getParada().size();
                 }
@@ -78,12 +83,12 @@ public class BilbobusMenua {
     }
 
     private static void erakutsiAukerakEtaKontsultatuAutobusak(BilbobusGeltokiak datuak, Scanner scanner) {
-        if (datuak == null || datuak.getParadas_bilbobus() == null || datuak.getParadas_bilbobus().getZona() == null) {
+        if (datuak == null || datuak.getZona() == null) {
             System.out.println("Ez dago daturik kargatuta.");
             return;
         }
 
-        List<Zona> guneak = datuak.getParadas_bilbobus().getZona();
+        List<Zona> guneak = datuak.getZona();
         
         System.out.println("\n--- ESKURAGO DAUDEN GUNEAK / KALEAK ---");
         for (int i = 0; i < guneak.size(); i++) {
@@ -129,22 +134,43 @@ public class BilbobusMenua {
 
     private static void gordetuZonaJSON(Zona zona) {
         try {
-            Gson gson = new GsonBuilder().setPrettyPrinting().create();
-            String jsonStr = gson.toJson(zona);
-            
+            // Gunearen geldialdi guztiak JSON zerrenda batean
+            JsonArrayBuilder paradakJson = Json.createArrayBuilder();
+            for (Parada p : zona.getParada()) {
+                paradakJson.add(Json.createObjectBuilder()
+                        .add("codigo_parada", testua(p.getCodigo_parada()))
+                        .add("parada", testua(p.getParada()))
+                        .add("correspondencias", testua(p.getCorrespondencias()))
+                        .add("longitud", testua(p.getLongitud()))
+                        .add("latitud", testua(p.getLatitud())));
+            }
+
+            // Zona objektua, bere geldialdien zerrenda barruan duela
+            JsonObject zonaJson = Json.createObjectBuilder()
+                    .add("nombre", testua(zona.getNombre()))
+                    .add("parada", paradakJson)
+                    .build();
+
             // Garbitu karaktere bereziak eta espazioak fitxategi izenetik egokia izateko
             String izenGarbia = zona.getNombre().replaceAll("[\\\\/:*?\"<>|]", "_").replace(" ", "_");
-            
-            // Orain bai, izena dinamikoa izango da
+
+            // Izena dinamikoa izango da
             String fitxategiIzena = "data/" + izenGarbia + ".json";
 
-            try (FileWriter writer = new FileWriter(fitxategiIzena)) {
-                writer.write(jsonStr);
+            // JSON-a formatu irakurgarriarekin idatzi
+            JsonWriterFactory fabrika = Json.createWriterFactory(Map.of(JsonGenerator.PRETTY_PRINTING, true));
+            try (JsonWriter writer = fabrika.createWriter(new FileWriter(fitxategiIzena))) {
+                writer.writeObject(zonaJson);
                 System.out.println("✔ Datuak arrakastaz gordeta dira hemen: " + fitxategiIzena);
             }
         } catch (Exception e) {
             System.out.println("Errorea JSON-a gordetzean: " + e.getMessage());
         }
+    }
+
+    // null ez sartzeko JSON-ean (testua hutsik badago)
+    private static String testua(String balioa) {
+        return balioa == null ? "" : balioa;
     }
 
     private static void bilatuGeldialdiakLinearenArabera(BilbobusGeltokiak datuak, Scanner scanner) {
@@ -154,7 +180,7 @@ public class BilbobusMenua {
         int aurkituta = 0;
         System.out.println("\n--- " + bilatutakoLinea + " lineako geldialdiak ---");
         
-        for (Zona zona : datuak.getParadas_bilbobus().getZona()) {
+        for (Zona zona : datuak.getZona()) {
             if (zona.getParada() != null) {
                 for (Parada p : zona.getParada()) {
                     if (p.getCorrespondencias() != null && p.getCorrespondencias().toUpperCase().contains(bilatutakoLinea)) {
@@ -174,7 +200,7 @@ public class BilbobusMenua {
         int maxGeldialdiak = -1;
         int minGeldialdiak = Integer.MAX_VALUE;
         
-        for (Zona zona : datuak.getParadas_bilbobus().getZona()) {
+        for (Zona zona : datuak.getZona()) {
             int geldialdiKop = (zona.getParada() != null) ? zona.getParada().size() : 0;
             System.out.println(" * " + zona.getNombre() + ": " + geldialdiKop + " geldialdi");
             

@@ -114,7 +114,7 @@ public class App {
                     }
                 }
 
-                ParadasBilbobus paradasBilbobus = new ParadasBilbobus();
+                BilbobusGeltokiak paradasBilbobus = new BilbobusGeltokiak();
                 List<Zona> zonasList = new ArrayList<>();
 
                 for (Map.Entry<String, List<Map<String, String>>> entry : zonaMapa.entrySet()) {
@@ -137,7 +137,7 @@ public class App {
                 paradasBilbobus.setZona(zonasList);
 
                 // MARSHALLER-a erabiliz XML-a sortu
-                JAXBContext jaxbContext = JAXBContext.newInstance(ParadasBilbobus.class);
+                JAXBContext jaxbContext = JAXBContext.newInstance(BilbobusGeltokiak.class);
                 Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
                 jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
@@ -155,13 +155,9 @@ public class App {
     private static BilbobusGeltokiak kargatuXML(String xmlPath) {
         try {
             File file = new File(xmlPath);
-            JAXBContext jaxbContext = JAXBContext.newInstance(ParadasBilbobus.class);
+            JAXBContext jaxbContext = JAXBContext.newInstance(BilbobusGeltokiak.class);
             Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
-            ParadasBilbobus paradasBilbobus = (ParadasBilbobus) jaxbUnmarshaller.unmarshal(file);
-
-            BilbobusGeltokiak geltokiak = new BilbobusGeltokiak();
-            geltokiak.setParadas_bilbobus(paradasBilbobus);
-            return geltokiak;
+            return (BilbobusGeltokiak) jaxbUnmarshaller.unmarshal(file);
 
         } catch (JAXBException e) {
             System.out.println("Errorea XML irakurtzean (Unmarshal): " + e.getMessage());
