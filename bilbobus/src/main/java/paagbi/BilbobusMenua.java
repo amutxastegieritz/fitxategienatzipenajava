@@ -120,7 +120,7 @@ public class BilbobusMenua {
                 String erantzuna = scanner.nextLine().trim().toLowerCase();
 
                 if (erantzuna.equals("bai") || erantzuna.equals("b")) {
-                    gordetuZonaJSON(aukeratutakoZona);
+                    gordeZonaJSON(aukeratutakoZona);
                 }
 
             } else {
@@ -132,7 +132,7 @@ public class BilbobusMenua {
         }
     }
 
-    private static void gordetuZonaJSON(Zona zona) {
+    private static void gordeZonaJSON(Zona zona) {
         try {
             // Gunearen geldialdi guztiak JSON zerrenda batean
             JsonArrayBuilder paradakJson = Json.createArrayBuilder();
@@ -161,7 +161,7 @@ public class BilbobusMenua {
             JsonWriterFactory fabrika = Json.createWriterFactory(Map.of(JsonGenerator.PRETTY_PRINTING, true));
             try (JsonWriter writer = fabrika.createWriter(new FileWriter(fitxategiIzena))) {
                 writer.writeObject(zonaJson);
-                System.out.println("✔ Datuak arrakastaz gordeta dira hemen: " + fitxategiIzena);
+                System.out.println("Datuak arrakastaz gordeta dira hemen: " + fitxategiIzena);
             }
         } catch (Exception e) {
             System.out.println("Errorea JSON-a gordetzean: " + e.getMessage());
