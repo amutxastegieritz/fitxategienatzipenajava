@@ -12,13 +12,29 @@ import java.util.Map;
 import java.util.Scanner;
 
 /*
-    Klase honek erabiltzaile-menua kudeatzen du, erabiltzaileak aukerak egin ditzan eta datuak kontsultatu ditzan.
-    Menuaren aukerak honako hauek dira:
-    1. Zenbat autobus geldialdi daude guztira?
-    2. Zenbat eta zein autobus pasatzen dira gune/kale batetik? (Gorde aukera)
-    3. Bilatu geldialdiak autobus-linea zehatz baten arabera
-    4. Ikusi estatistikak (Geldialdi gehien eta gutxien dituzten guneak)
-    5. Irten
+ * Zer egiten du?
+ *   Klase honek erabiltzaile-menua kudeatzen du, erabiltzaileak aukerak egin
+ *   ditzan eta datuak kontsultatu ditzan. Datuak memorian daude (XMLtik kargatuak
+ *   izan dira App klasean) eta hemen irakurri, bilatu eta aztertzen dira.
+ *
+ * Menuaren aukerak honako hauek dira:
+ *   1. Zenbat autobus geldialdi daude guztira?
+ *   2. Zenbat eta zein autobus pasatzen dira gune/kale batetik? (Gorde aukera)
+ *   3. Bilatu geldialdiak autobus-linea zehatz baten arabera
+ *   4. Ikusi estatistikak (Geldialdi gehien eta gutxien dituzten guneak)
+ *   5. Irten
+ *
+ * Metodoak:
+ *   - abiaraziMenua                              : menuaren begizta nagusia (publikoa).
+ *   - kalkulatuGeldialdiGuztiak                  : 1. aukera, geldialdi kopuru osoa.
+ *   - erakutsiAukerakEtaKontsultatuAutobusak     : 2. aukera, gune baten geldialdiak eta lineak.
+ *   - gordeZonaJSON                              : 2. aukerako JSON esportazioa (Jakarta JSON).
+ *   - testua                                     : null balioak kate huts bihurtzen ditu.
+ *   - bilatuGeldialdiakLinearenArabera           : 3. aukera, linea baten geldialdiak.
+ *   - erakutsiGuneEstatistikak                   : 4. aukera, gune handiena eta txikiena.
+ *
+ * Sarrera baliogabeak (zenbakirik ez dena, barrutitik kanpokoa...) kudeatzen dira
+ * programa ez gelditzeko.
  */
 
 public class BilbobusMenua {
