@@ -28,7 +28,7 @@ Programak datuak hiru formatu ezberdinetan maneiatzen ditu:
 
 ### 2.3. Erabilitako Teknologiak
 * **JAXB (Java Architecture for XML Binding):** XML fitxategiak kudeatzeko erabili da. Klaseetan anotazioak erabili dira (`@XmlRootElement`, `@XmlElement`, `@XmlAttribute`, `@XmlType`) eta **Marshalling** (Javatik XMLra) zein **Unmarshalling** (XMLtik Javara) prozesuak inplementatu dira.
-* **Gson:** JSON fitxategiak sortzeko eta esportatzeko erabili da.
+* **Jakarta:** JSON fitxategiak sortzeko eta esportatzeko erabili da.
 
 ## 3. Proiektuaren egitura
 

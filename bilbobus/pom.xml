@@ -46,7 +46,7 @@
         <scope>compile</scope>
     </dependency>
 
-    <!-- Gson liburutegia JSON fitxategiak irakurtzeko -->
+    <!-- JAKARTA liburutegia JSON fitxategiak irakurtzeko -->
     <dependency>
         <groupId>jakarta.json</groupId>
         <artifactId>jakarta.json-api</artifactId>
