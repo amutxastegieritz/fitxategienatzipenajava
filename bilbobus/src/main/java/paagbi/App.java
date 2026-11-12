@@ -12,7 +12,7 @@ import java.net.URL;
 import java.util.*;
 
 /**
-    (Langilea da, hau da)
+    (Langilea da)
     Aplikazioaren klase nagusia da hau. Bilboko OpenData ataritik Bilbobuseko geltokien CSV fitxategia 
     deskargatzeaz, prozesatzeaz eta JAXB erabiliz XML formatura bihurtzeaz (Marshall) arduratzen da. 
     Ondoren, sortutako XML fitxategitik datuak kargatzen ditu (Unmarshall) eta 
