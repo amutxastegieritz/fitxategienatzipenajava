@@ -16,7 +16,7 @@ Aplikazio honek eskatutako irizpide eta baldintza guztiak betetzen ditu:
 Programak datuak hiru formatu ezberdinetan maneiatzen ditu:
 1. **CSV:** Internetetik formatu honetan deskargatu eta prozesatzen dira hasierako datuak (`data/paradas_bilbobus.csv`).
 2. **XML:** CSVko datuak memoria egitura batean kargatu ondoren, JAXB erabiliz XML formatuan gordetzen dira. Fitxategi hau aplikazioaren datu-base nagusia bezala funtzionatzen du (`data/paradas_bilbobus.xml`).
-3. **JSON:** Erabiltzaileak menuaren bidez gune (zona) zehatz bat kontsultatzen duenean, emaitza hori fitxategi formatu honetan esportatzeko aukera ematen da (**Gson** liburutegia erabiliz).
+3. **JSON:** Erabiltzaileak menuaren bidez gune (zona) zehatz bat kontsultatzen duenean, emaitza hori fitxategi formatu honetan esportatzeko aukera ematen da (**Jakarta JSON** liburutegia erabiliz).
 
 ### 2.2. Anidazioa eta Atributuak (XML eta JSON)
 * **XML fitxategia:** Hiru mailako anidazioa dauka:
@@ -28,7 +28,7 @@ Programak datuak hiru formatu ezberdinetan maneiatzen ditu:
 
 ### 2.3. Erabilitako Teknologiak
 * **JAXB (Java Architecture for XML Binding):** XML fitxategiak kudeatzeko erabili da. Klaseetan anotazioak erabili dira (`@XmlRootElement`, `@XmlElement`, `@XmlAttribute`, `@XmlType`) eta **Marshalling** (Javatik XMLra) zein **Unmarshalling** (XMLtik Javara) prozesuak inplementatu dira.
-* **Jakarta:** JSON fitxategiak sortzeko eta esportatzeko erabili da.
+* **Jakarta JSON:** JSON fitxategiak sortzeko eta esportatzeko erabili da.
 
 ## 3. Proiektuaren egitura
 
