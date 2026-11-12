@@ -35,4 +35,4 @@ Programak datuak hiru formatu ezberdinetan maneiatzen ditu:
 * **Paketeen antolaketa:** Kode guztia `paagbi` izeneko paketean egituratu da, klase bakoitzak erantzukizun bakarra (Single Responsibility) izan dezan:
   * `App.java`: Aplikazioaren abiarazlea eta exekuzioaren fluxu nagusia.
   * `BilbobusMenua.java` (eta bere azpiklaseak): Menua printeatzeko funtzioa eta aukera bakoitzaren funtzioak.
-  * `BilbobusGeltokiak.java` (eta bere azpiklaseak): JAXB-ren datu-eredua eta XML anotazioak.
+  * `BilbobusGeltokiak.java`, `Zona.java` eta `Parada.java`: JAXB-ren datu-eredua eta XML anotazioak.
